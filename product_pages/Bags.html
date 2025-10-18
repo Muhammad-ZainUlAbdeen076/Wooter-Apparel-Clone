@@ -1,0 +1,791 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wooter</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+<!-- Swiper CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+<style>
+    /* Desktop dropdown appear on hover */
+    .dropdown:hover .dropdown-menu {
+      display: flex;
+    }
+  </style>
+
+</head>
+<body>
+    
+
+
+ <!-- ----------NAVBAR------------- -->
+<nav class="bg-white shadow">
+  <div class="w-full px-4 md:px-8 py-3 flex items-center justify-between">
+    
+    <!-- LOGO -->
+    <div class="sm:pl-[4rem] md:pl-[10rem]">
+      <img src="/images/logo.png" class="h-10 sm:h-12 md:h-14 w-auto" />
+    </div>
+
+    <!-- DESKTOP MENU -->
+    <div class="hidden sm:block  sm:pr-[2rem] md:pr-[4rem]">
+      <ul class="space-x-4 text-[13px] sm:flex  justify-center  flex-wrap">
+                      <li class="relative group">
+                <a
+                  href="#"
+                  class="text-gray-700 hover:text-gray-400 font-medium"
+                  >TEAMS UNIFORM <span class="text-gray-400">/</span></a
+                >
+
+                <div
+                  class="absolute px-2 py-2 w-40 bg-white shadow-md hidden group-hover:flex flex-col z-50"
+                >
+                  
+
+                  <a href="/product_pages/Football.html" class="hover:text-gray-400">Football</a>
+
+                  <a href="/product_pages/Baseball.html" class="hover:text-gray-400">Baseball</a>
+
+                 
+                  
+
+                  <a href="/product_pages/Football.html" class="hover:text-gray-400"
+                    >Flag Football</a
+                  >
+
+                  <a href="/product_pages/CheerLeading.html" class="hover:text-gray-400"
+                    >Cheerleading</a
+                  >
+
+                  <a href="/product_pages/cricket.html" class="hover:text-gray-400">Cricket</a>
+
+            
+
+                  <a href="/product_pages/FieldHockey.html" class="hover:text-gray-400"
+                    >Field Hockey</a
+                  >
+
+                  
+                  <a href="/product_pages/bowling.html" class="hover:text-gray-400">Bowling</a>
+
+           
+
+                  <a href="/product_pages/cycling.html" class="hover:text-gray-400">Cycling</a>
+                  
+                  <a href="/product_pages/Golf.html" class="hover:text-gray-400">Golf</a>
+
+                  <a href="/product_pages/Esports.html" class="hover:text-gray-400">Esports</a>
+
+                 
+
+                  <a href="/custom-team-uniforms" class="hover:text-gray-400"
+                    >VIEW ALL...</a
+                  >
+                </div>
+              </li>
+
+              <li class="relative group">
+                <a
+                  href="#"
+                  class="text-gray-700 hover:text-gray-400 font-medium"
+                  >Custom Apparel <span class="text-gray-400">/</span></a
+                >
+
+                <div
+                  class="absolute px-2 py-2 w-40 bg-white shadow-md hidden group-hover:flex flex-col z-50"
+                >
+                 
+                  <a class="hover:text-gray-400" href="/product_pages/Bags.html"
+                    >Bags and Backpacks</a
+                  >
+                 
+                </div>
+              </li>
+
+              <li class="relative group">
+                <a
+                  href="#"
+                  class="text-gray-700 hover:text-gray-400 font-medium"
+                  >Designs <span class="text-gray-400">/</span></a
+                >
+
+                <div
+                  class="absolute px-2 py-2 w-40 bg-white shadow-md hidden group-hover:flex flex-col z-50"
+                >
+                 
+                  <a href="/product_pages/Football.html" class="hover:text-gray-400"
+                    >Football</a
+                  >
+                  
+                  <a href="/product_pages/CheerLeading.html" class="hover:text-gray-400"
+                    >Cheerleading</a
+                  >
+                 
+                 
+                  <a href="/product_pages/FieldHockey.html" class="hover:text-gray-400"
+                    >Field Hockey</a
+                  >
+                 
+                  <a href="/product_pages/bowling.html" class="hover:text-gray-400"
+                    >Bowling</a>
+                </div>
+              </li>
+
+              <li class="relative group">
+                <a
+                  href="#"
+                  class="text-gray-700 hover:text-gray-400 font-medium"
+                  >Company <span class="text-gray-400">/</span></a
+                >
+
+                <div
+                  class="absolute px-2 py-2 w-40 shadow-md hidden group-hover:flex flex-col z-50 bg-white"
+                >
+                  
+                  <a href="/team" class="hover:text-gray-400">Team</a>
+                  <a href="/what-is-wooter" class="hover:text-gray-400"
+                    >What is Wooter?</a
+                  >
+              
+                </div>
+              </li>
+
+              <li class="relative group">
+                <a
+                  href="#"
+                  class="text-gray-700 hover:text-gray-400 font-medium"
+                  >Community <span class="text-gray-400">/</span></a
+                >
+
+                <div
+                  class="absolute px-2 py-2 w-40 shadow-md hidden group-hover:flex flex-col z-50 bg-white"
+                >
+                
+                
+                  <a href="/win-with-wooter-apparel" class="hover:text-gray-400"
+                    >Win With Wooter Apparel</a
+                  >
+                </div>
+              </li>
+
+              <a
+                href="/wholesale"
+                class="text-gray-700 hover:text-gray-400 font-medium"
+                >Wholesale <span class="text-gray-400">/</span></a
+              >
+
+              <li class="relative group">
+                <a
+                  href="#"
+                  class="text-gray-700 hover:text-gray-400 font-medium"
+                  >Help <span class="text-gray-400">/</span></a
+                >
+
+                <div
+                  class="absolute px-2 py-2 w-40 shadow-md hidden group-hover:flex flex-col z-50 bg-white"
+                >
+
+                  <a href="/Term_&_condition.html" class="hover:text-gray-400"
+                    >Terms & Conditions</a
+                  >
+                  <a href="/Privacy_policy.html" class="hover:text-gray-400"
+                    >Privacy Policy</a
+                  >
+                </div>
+              </li>
+
+              <a
+                href="/reviews"
+                class="text-gray-700 hover:text-gray-400 font-medium"
+                >Reviews <span class="text-gray-400">/</span></a
+              >
+
+              <a
+                href="/pricing"
+                class="text-gray-700 hover:text-gray-400 font-medium"
+                >Pricing <span class="text-gray-400">/</span></a
+              >
+
+              <a
+                href="/request"
+                class="text-gray-700 hover:text-gray-400 font-medium"
+                >Quote <span class="text-gray-400">/</span></a
+              >
+
+              <a
+                href="tel:3478502720"
+                class="text-gray-700 hover:text-gray-400 font-medium"
+                >(347) 850-2720 <span class="text-gray-400">/</span></a
+              >
+      </ul>
+    </div>
+
+    <!-- HAMBURGER (Mobile) -->
+    <div class="block sm:hidden">
+      <button id="mobile-toggle">
+        <i class="fa-solid fa-bars text-2xl"></i>
+      </button>
+    </div>
+  </div>
+
+  <!-- MOBILE MENU -->
+  <div id="mobile-nav" class="hidden sm:hidden px-4 py-3">
+    <!-- Your mobile menu here -->
+    <ul class="flex items-center justify-center flex-col space-y-2 text-gray-700 font-medium text-sm">
+        <!-- Teams Uniform Dropdown -->
+        <li>
+          <button class="w-full flex justify-between items-center px-2 py-2" onclick="toggleDropdown('team-submenu')">
+            Teams Uniform <i class="fa-solid fa-chevron-down text-xs"></i>
+          </button>
+          <ul id="team-submenu" class="pl-4 hidden flex-col space-y-1">
+            <li><a href="/basketball" class="block hover:text-gray-400">Basketball</a></li>
+            <li>  <a href="/product_pages/Baseball.html" class="hover:text-gray-400">Baseball</a></li>
+            <li><a href="/product_pages/Football.html" class="hover:text-gray-400"
+                    >Flag Football</a
+                  ></li>
+             <li> <a href="/product_pages/CheerLeading.html" class="hover:text-gray-400"
+                    >Cheerleading</a
+                  ></li>
+
+                  <li>
+                  <a href="/product_pages/cricket.html" class="hover:text-gray-400">Cricket</a></li>
+
+                  <li>
+                  <a href="/product_pages/FieldHockey.html" class="hover:text-gray-400"
+                    >Field Hockey</a
+                  ></li>
+
+                  <li>
+                  
+                  <a href="/product_pages/bowling.html" class="hover:text-gray-400">Bowling</a></li>
+                
+<li> <a href="/product_pages/cycling.html" class="hover:text-gray-400">Cycling</a></li>
+                 
+                  <li>
+                  <a href="/product_pages/Golf.html" class="hover:text-gray-400">Golf</a></li>
+
+                  <li>
+                  <a href="/product_pages/Esports.html" class="hover:text-gray-400">Esports</a>
+</li>
+
+                 
+<li>      <a href="/custom-team-uniforms" class="hover:text-gray-400"></a></li>
+
+          
+
+          </ul>
+        </li>
+
+        <!-- Custom Apparel Dropdown -->
+        <li>
+          <button class="w-full flex justify-between items-center px-2 py-2" onclick="toggleDropdown('apparel-submenu')">
+            Custom Apparel <i class="fa-solid fa-chevron-down text-xs"></i>
+          </button>
+          <ul id="apparel-submenu" class="pl-4 hidden flex-col space-y-1">
+            
+       
+            <li><a href="/product_pages/Bags.html" class="block hover:text-gray-400">Bags</a></li>
+          </ul>
+        </li>
+
+ <!-- Company Dropdown -->
+   <li>
+          <button class="w-full flex justify-between items-center px-2 py-2" onclick="toggleDropdown('company-submenu')">
+         Company <i class="fa-solid fa-chevron-down text-xs"></i>
+          </button>
+          <ul id="company-submenu" class="pl-4 hidden flex-col space-y-1">
+          
+            <li><a href="/team" class="hover:text-gray-400">Team</a></li>
+              <li>
+                  <a href="/what-is-wooter" class="hover:text-gray-400"
+                    >What is Wooter?</a
+                  ></li>
+          </ul>
+        </li>
+
+
+
+
+
+ <!-- help Dropdown -->
+   <li>
+          <button class="w-full flex justify-between items-center px-2 py-2" onclick="toggleDropdown('help-submenu')">
+         Help <i class="fa-solid fa-chevron-down text-xs"></i>
+          </button>
+          <ul id="help-submenu" class="pl-4 hidden flex-col space-y-1">
+            <li> <a href="/Term_&_condition.html" class="hover:text-gray-400"
+                    >Terms & Conditions</a
+                  ></li>
+                  <li>
+                  <a href="/Privacy_policy.html" class="hover:text-gray-400"
+                    >Privacy Policy</a
+                  ></li>
+           
+          </ul>
+        </li>
+
+
+
+
+
+        <!-- Simple Links -->
+      
+       
+        <li><a href="/pricing" class="block px-2 py-1 hover:text-gray-400">Pricing</a></li>
+        <li><a href="/request" class="block px-2 py-1 hover:text-gray-400">Quote</a></li>
+        <li><a href="tel:3478502720" class="block px-2 py-1 hover:text-gray-400">(347) 850-2720</a></li>
+      </ul>
+  </div>
+</nav>
+<!-- ----------NAVBAR------------- -->
+
+    <!-- -------------HERO-------------- -->
+
+    <div
+      class="relative h-[23rem] md:h-[18rem] bg-cover bg-center bg-no-repeat justify-center xl:mx-[10rem]"
+      style="
+        background-image: url('/images/Bag_images/Wooter-Apparel---Designs---Backpack-Designs---Header.webp');
+      "
+    >
+      <!-- Overlay -->
+      <div class="absolute inset-0 bg-black bg-opacity-10"></div>
+
+      <!-- Text on top -->
+      <div class="absolute inset-0 top-[6rem] left-10">
+        <h1 class="text-white text-4xl font-bold text-center">
+       Custom Bags and Custom Backpacks
+        </h1>
+        <h3 class="block text-white text-2xl mx-auto text-center">
+    Fully customizable premium team backpacks and bags for all occasions. 
+        </h3>
+      </div>
+    </div>
+    <!-- -------------HERO-------------- -->
+
+
+
+
+
+<div class="container w-[90%] mx-auto">
+
+  <h1 class="text-center py-2 text-2xl"><strong>Premium Custom Golf Polos and Shirts</strong></h1>
+  <p class="text-center py-1 text-1xl w-[50%] mx-auto">
+    Our custom golf polos and golf shirts are made with high-quality materials and can feature any design you want. Whether you prefer something fully sublimated or a simple embroidered logo, we will work with you to create the perfect design.
+  </p>
+
+  <div class="row lg:m-10">
+
+    <!-- Left side: YouTube video -->
+    <div class="col-12 col-md-6 ">
+      <iframe 
+        width="570" 
+        height="335" 
+        src="https://www.youtube.com/embed/RXNCSJGzUxg" 
+        title="YouTube video player" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen>
+      </iframe>
+    </div>
+
+    <!-- Right side: List -->
+    <div class="col-12 col-md-6">
+      <p class="text-3xl font-semibold">Premium Custom Backpacks & Sublimated Bags</p>
+      <p class="text-1xl">Our custom backpacks and duffle bags are made with high-quality materials and can feature any design you want. Whether you prefer something fully sublimated or a simple embroidered logo, we will work with you to create the perfect design. We make bags and team backpacks for all sports and occasions including basketball, football, baseball, hockey, soccer, coaches bags and even for the gym.</p>
+   <br>
+   <p class="text-2xl text-red-500">Premium Sublimated Basketball Backpacks</p>
+   <p>$64.99/bag (10 backpack minimum)</p>
+   <p>Dimensions: L 12in x W 7in x H 16 1/2 in</p>
+
+   <p class="text-2xl text-red-500">Premium Sublimated Baseball Elite Bat-Backpacks </p>
+   <p>$59.99/bag (10 backpack minimum)</p>
+   <p>Dimensions: L 13in x W: 5 1/2 in x H: 18in</p>
+    </div>
+
+  </div>
+</div>
+
+
+
+
+<!-- --------Contact--------- -->
+    <div class="container-fluid">
+      <div class="text-center">
+        
+        <p class="whitespace-pre-wrap py-2">
+          Start Your Custom Order Today! Let us bring your design to life!
+        </p>
+        <div class=" text-center">
+        <p class="py-2">
+          📞 CALL:
+          <a href="tel:3478502720" target="_blank"
+            ><strong class="text-red-500">(347) 850-2720</strong></a
+          ><strong> </strong>or<strong> </strong>💬 <strong>Live Chat:</strong>
+          <em>Available 24/7 or </em>📧<em> </em
+          ><a href="https://wooterapparel.com/basketball#contact"
+            ><strong class="text-red-500">Contact a Sales Representative Today!</strong></a
+          >
+        </p>
+      </div>
+        <p class=" py-2">
+          Real and friendly people, no robots, no wait... always ready to help.
+          Call us now!
+        </p>
+    
+        <button class="btn bg-danger text-white rounded-[300px] my-3 px-3 py-3">
+          <a href="https://wooterapparel.com/request">
+            GET A FREE DESIGN AND QUOTE
+          </a>
+        </button>
+        <hr class="my-4 text-gray-600 w-[80%] mx-auto" />
+      </div>
+       
+    </div>
+ <!-- --------Contact--------- -->
+
+
+
+<!-- ----Community Pics----- -->
+<section class="pt-2 bg-white w-[90%] mx-auto">
+  <div class="container text-center">
+       <h2 class="fw-semibold mb-5 text-2xl">Photos From Our Community</h2>
+    <div class="row g-2 align-items-stretch">
+      <!-- Left Small Images -->
+      <div class="col-12 col-md-6 d-flex flex-column">
+        <div class="row g-2 flex-fill">
+          <div class="col-6">
+            <img
+              src="/images/Bag_images/c2.xx&oh=f32139420945c09f585d2595caa6cda4&oe=5CD9182C"
+              alt="Photo 1"
+              class="img-fluid w-100 h-100 object-fit-cover"
+            />
+          </div>
+          <div class="col-6">
+            <img
+              src="/images/Bag_images/c3.webp"
+              alt="Photo 2"
+              class="img-fluid w-100 h-100 object-fit-cover"
+            />
+          </div>
+          <div class="col-6">
+            <img
+              src="/images/Bag_images/c4.webp"
+              alt="Photo 3"
+              class="img-fluid w-100 h-100 object-fit-cover"
+            />
+          </div>
+          <div class="col-6">
+            <img
+              src="/images/Bag_images/c5.jpg"
+              alt="Photo 4"
+              class="img-fluid w-100 h-100 object-fit-cover"
+            />
+          </div>
+        </div>
+      </div>
+
+      <!-- Right Big Image -->
+      <div class="col-12 col-md-6 d-flex">
+        <img
+          src="/images/Bag_images/c1.webp"
+          alt="Main Photo"
+          class="img-fluid w-100 h-100 object-fit-cover flex-fill"
+        />
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="pt-2 bg-white w-[90%] mx-auto">
+  <div class="container text-center">
+
+
+    <div class="row g-2 align-items-stretch">
+      <!-- Left Big Image -->
+      <div class="col-12 col-md-6 d-flex">
+        <img
+          src="/images/Bag_images/c6.webp"
+          alt="Main Photo"
+          class="img-fluid w-100 h-100 object-fit-cover flex-fill"
+        />
+      </div>
+
+      <!-- Right Small Images -->
+      <div class="col-12 col-md-6 d-flex flex-column">
+        <div class="row g-2 flex-fill">
+          <div class="col-6">
+            <img
+              src="/images/Bag_images/c7.jpg"
+              alt="Photo 1"
+              class="img-fluid w-100 h-100 object-fit-cover"
+            />
+          </div>
+          <div class="col-6">
+            <img
+              src="/images/Bag_images/c8.xx&oh=81424b95ff9b388a1f5cf3a8ebb429d6&oe=5C49D2F0"
+              alt="Photo 2"
+              class="img-fluid w-100 h-100 object-fit-cover"
+            />
+          </div>
+          <div class="col-6">
+            <img
+              src="/images/Bag_images/c9.webp"
+              alt="Photo 3"
+              class="img-fluid w-100 h-100 object-fit-cover"
+            />
+          </div>
+          <div class="col-6">
+            <img
+              src="/images/Bag_images/c10.xx&oh=d9e77d5766e8cad3798675acff282bad&oe=5C86DAFC"
+              alt="Photo 4"
+              class="img-fluid w-100 h-100 object-fit-cover"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- ----Community Pics----- -->
+
+
+
+
+<!-- images -->
+<div class="container mx-auto w-[90%] py-12">
+    <p class="text-2xl text-gray-800 my-4 font-bold text-center">Design Your Darts Uniforms EXACTLY How You Want!</p>
+    <p class="text-1xl text-gray-600  font-normal text-center mb-5">We have hundreds of different designs you can use as inspiration or we can make a completely original design for you</p>
+<div class="grid grid-cols-1 sm:grid-cols-4  gap-6">
+<img src="/images/Bag_images/d1.webp" alt="">
+<img src="/images/Bag_images/d2.webp" alt="">
+<img src="/images/Bag_images/d3.webp" alt="">
+<img src="/images/Bag_images/d4.webp" alt="">
+</div>
+</div>
+<!-- images -->
+
+
+
+
+
+
+<hr class="w-[84%] mx-auto my-3 text-gray-700">
+
+<div class="container mx-auto w-[80%]">
+  <div class="row">
+    <div class="col-md-4 ">
+      <p><i>Step 1:</i></p>
+      <p>Fill out the request form.</p>
+      <br>
+      <p>
+        Take a minute to fill out the request form with some general info about your custom cycling apparel. We'll contact you right away to start working on your order. 
+      </p>
+    </div>
+
+    <div class="col-md-4 pb-5">
+      <p><i>Step 2:</i></p>
+      <p>We create the designs</p>
+      <br>
+      <p>
+        <p>We will work with you closely to come up with the perfect set of custom cycling designs for your organization and then send the order to our manufacturer.</p>
+      </p>
+    </div>
+
+    <div class="col-md-4 pb-5">
+      <p><i>Step 3:</i></p>
+      <p>You receive the order in 3-4 weeks.</p>
+      <br>
+      <p>
+    <p>Once we finalize all the designs and put in the order you should expect your cycling apparel in 3-4 weeks, for your players to enjoy.</p>
+      </p>
+    </div>
+
+  </div>
+</div>
+
+
+<hr class="w-[84%] mx-auto my-3 text-gray-700">
+<!-- ------form------- -->
+<section class="py-5 bg-white w-[80%] mx-auto">
+  <div class="container">
+    <div class="row">
+      
+      <!-- Left -->
+      <div class="col-md-5 mb-4">
+        <h4 class="fw-bold">Have a question about our darts polos and apparel? </h4>
+        <p>Send us a quick message and we'll get back to you ASAP!</p>
+
+        <p class="mb-1 fw-semibold"><strong>ADDRESS</strong></p>
+        <p class="mb-3">
+          Wooter Apparel Inc.<br>
+          727 Page Ave<br>
+          Staten Island, NY 10307<br>
+          United States
+        </p>
+
+        <p class="mb-1 fw-semibold"><strong>PHONE</strong></p>
+        <p class="mb-3">(347) 850-2720</p>
+
+        <p class="mb-1 fw-semibold"><strong>LIVE CHAT</strong></p>
+        <p>Click chat icon on the bottom right of the page.</p>
+      </div>
+
+      <!-- Right Form -->
+      <div class="col-md-7">
+        <form>
+          <!-- Name Row -->
+          <div class="row mb-3">
+            <div class="col">
+              <label for="firstName" class="form-label">First Name <span class="text-danger">*</span></label>
+              <input type="text" class="form-control" id="firstName" required>
+            </div>
+            <div class="col">
+              <label for="lastName" class="form-label">Last Name <span class="text-danger">*</span></label>
+              <input type="text" class="form-control" id="lastName" required>
+            </div>
+          </div>
+
+          <!-- Email -->
+          <div class="mb-3">
+            <label for="email" class="form-label">Email Address <span class="text-danger">*</span></label>
+            <input type="email" class="form-control" id="email" required>
+          </div>
+
+          <!-- Phone -->
+          <div class="mb-3">
+            <label for="phone" class="form-label">Phone Number</label>
+            <input type="tel" class="form-control" id="phone">
+          </div>
+
+          <!-- Message -->
+          <div class="mb-3">
+            <label for="message" class="form-label">Message <span class="text-danger">*</span></label>
+            <textarea class="form-control" id="message" rows="5" required placeholder="Give us some info about your order (date needed, quantity, type, etc.)"></textarea>
+          </div>
+
+          <!-- Submit -->
+          <button type="submit" class="btn btn-danger rounded-pill px-4 py-2 fw-semibold">SUBMIT</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- ------form------- -->
+
+
+
+
+
+<hr class="w-[84%] mx-auto my-3 text-gray-700">
+
+<!-- ------footer------- -->
+<footer class="container mx-auto px-4 py-6">
+  <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-4">
+    
+    <!-- Column 1 -->
+    <div>
+      <img src="https://images.squarespace-cdn.com/content/v1/572a977a45bf21aba915b8ff/4a375a7c-8234-4c84-be2c-7bf06450a7e1/Wooter+Logo+Primary?format=1500w" alt="">
+      <div class="flex items-center justify-center gap-8 py-2">
+        <i class="text-2xl bi bi-facebook"></i>
+        <i class="text-2xl bi bi-instagram"></i>
+        <i class="text-2xl bi bi-twitter"></i>
+      </div>
+    </div>
+
+    <!-- Column 2 -->
+    <div class="flex justify-center items-center">
+      <button>
+        <a href="https://wooter.com" target="_blank" class="uppercase text-red-500 border-2 border-red-600 px-4 py-3 rounded-5">
+          Order Now
+        </a>
+      </button>
+    
+    </div>
+
+    <!-- Column 3 -->
+    <div class="flex justify-center items-center">
+      <img src="https://share.trustpilot.com/images/company-rating?locale=en-US&amp;businessUnitId=5d0d19a609d4e90001259bf8" alt="">
+    </div>
+
+    <!-- Column 4 -->
+    <div class="flex justify-center items-center">
+      <img src="https://images.squarespace-cdn.com/content/v1/572a977a45bf21aba915b8ff/1513228411504-ESBQXSGBW0ZO9KSKN9FD/Wooter+Apparel+-+Payment+Methods+-+Custom+Sports+Uniforms" alt="">
+    </div>
+
+    <!-- Column 5 -->
+    <div class="flex flex-col items-center gap-2">
+      <img class="w-40" src="https://images.squarespace-cdn.com/content/v1/572a977a45bf21aba915b8ff/328550f3-6873-4771-b0f5-601193bed07a/Wooter+-+Download+App" alt="">
+      <img class="w-40" src="https://images.squarespace-cdn.com/content/v1/572a977a45bf21aba915b8ff/1579230905183-MSFF8QRRLT73QN0G7PF3/24%2F7+support+and+satisfaction+guarantee+-+Custom+Sports+Uniforms+Best+Prices+%26+Support" alt="">
+    </div>
+
+  </div>
+</footer>
+<!-- ------footer------- -->
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+<!-- Script for Hamburger & Dropdowns -->
+<script>
+  function toggleDropdown(id) {
+    const el = document.getElementById(id);
+    el.classList.toggle('hidden');
+  }
+
+  document.getElementById("mobile-toggle").addEventListener("click", () => {
+    document.getElementById("mobile-nav").classList.toggle("hidden");
+  });
+</script>
+
+ <!-- -----swipper js------ -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js"></script>
+  <script>
+  var swiper = new Swiper(".mySwiper", {
+    slidesPerView: 2,
+    slidesPerGroup: 2,
+    spaceBetween: 20,
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+    breakpoints: {
+      // When window width is >= 1024px
+      1024: {
+        slidesPerView: 5,
+        slidesPerGroup: 5,
+      },
+    }
+  });
+</script>
+<!-- -----swipper js------ -->
+ <script src="https://cdn.tailwindcss.com"></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+    crossorigin="anonymous"
+  ></script>
+</html>

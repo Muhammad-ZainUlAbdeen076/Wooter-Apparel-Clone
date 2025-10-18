@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wooter</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+<!-- Swiper CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+<style>
+    /* Desktop dropdown appear on hover */
+    .dropdown:hover .dropdown-menu {
+      display: flex;
+    }
+  </style>
+
+</head>
+<body>
+    
+
+
+
+<!-- ----------NAVBAR------------- -->
+<nav class="bg-white shadow">
+  <div class="w-full px-4 md:px-8 py-3 flex items-center justify-between">
+    
+    <!-- LOGO -->
+    <div class="sm:pl-[4rem] md:pl-[10rem]">
+      <img src="/images/logo.png" class="h-10 sm:h-12 md:h-14 w-auto" />
+    </div>
+
+    <!-- DESKTOP MENU -->
+    <div class="hidden sm:block  sm:pr-[2rem] md:pr-[4rem]">
+      <ul class="space-x-4 text-[13px] sm:flex  justify-center  flex-wrap">
+                      <li class="relative group">
+                <a
+                  href="#"
+                  class="text-gray-700 hover:text-gray-400 font-medium"
+                  >TEAMS UNIFORM <span class="text-gray-400">/</span></a
+                >
+
+                <div
+                  class="absolute px-2 py-2 w-40 bg-white shadow-md hidden group-hover:flex flex-col z-50"
+                >
+                  
+
+                  <a href="/product_pages/Football.html" class="hover:text-gray-400">Football</a>
+
+                  <a href="/product_pages/Baseball.html" class="hover:text-gray-400">Baseball</a>
+
+                 
+                  
+
+                  <a href="/product_pages/Football.html" class="hover:text-gray-400"
+                    >Flag Football</a
+                  >
+
+                  <a href="/product_pages/CheerLeading.html" class="hover:text-gray-400"
+                    >Cheerleading</a
+                  >
+
+                  <a href="/product_pages/cricket.html" class="hover:text-gray-400">Cricket</a>
+
+            
+
+                  <a href="/product_pages/FieldHockey.html" class="hover:text-gray-400"
+                    >Field Hockey</a
+                  >
+
+                  
+                  <a href="/product_pages/bowling.html" class="hover:text-gray-400">Bowling</a>
+
+           
+
+                  <a href="/product_pages/cycling.html" class="hover:text-gray-400">Cycling</a>
+                  
+                  <a href="/product_pages/Golf.html" class="hover:text-gray-400">Golf</a>
+
+                  <a href="/product_pages/Esports.html" class="hover:text-gray-400">Esports</a>
+
+                 
+
+                  <a href="/custom-team-uniforms" class="hover:text-gray-400"
+                    >VIEW ALL...</a
+                  >
+                </div>
+              </li>
+
+              <li class="relative group">
+                <a
+                  href="#"
+                  class="text-gray-700 hover:text-gray-400 font-medium"
+                  >Custom Apparel <span class="text-gray-400">/</span></a
+                >
+
+                <div
+                  class="absolute px-2 py-2 w-40 bg-white shadow-md hidden group-hover:flex flex-col z-50"
+                >
+                 
+                  <a class="hover:text-gray-400" href="/product_pages/Bags.html"
+                    >Bags and Backpacks</a
+                  >
+                 
+                </div>
+              </li>
+
+              <li class="relative group">
+                <a
+                  href="#"
+                  class="text-gray-700 hover:text-gray-400 font-medium"
+                  >Designs <span class="text-gray-400">/</span></a
+                >
+
+                <div
+                  class="absolute px-2 py-2 w-40 bg-white shadow-md hidden group-hover:flex flex-col z-50"
+                >
+                 
+                  <a href="/product_pages/Football.html" class="hover:text-gray-400"
+                    >Football</a
+                  >
+                  
+                  <a href="/product_pages/CheerLeading.html" class="hover:text-gray-400"
+                    >Cheerleading</a
+                  >
+                 
+                 
+                  <a href="/product_pages/FieldHockey.html" class="hover:text-gray-400"
+                    >Field Hockey</a
+                  >
+                 
+                  <a href="/product_pages/bowling.html" class="hover:text-gray-400"
+                    >Bowling</a>
+                </div>
+              </li>
+
+              <li class="relative group">
+                <a
+                  href="#"
+                  class="text-gray-700 hover:text-gray-400 font-medium"
+                  >Company <span class="text-gray-400">/</span></a
+                >
+
+                <div
+                  class="absolute px-2 py-2 w-40 shadow-md hidden group-hover:flex flex-col z-50 bg-white"
+                >
+                  
+                  <a href="/team" class="hover:text-gray-400">Team</a>
+                  <a href="/what-is-wooter" class="hover:text-gray-400"
+                    >What is Wooter?</a
+                  >
+              
+                </div>
+              </li>
+
+              <li class="relative group">
+                <a
+                  href="#"
+                  class="text-gray-700 hover:text-gray-400 font-medium"
+                  >Community <span class="text-gray-400">/</span></a
+                >
+
+                <div
+                  class="absolute px-2 py-2 w-40 shadow-md hidden group-hover:flex flex-col z-50 bg-white"
+                >
+                
+                
+                  <a href="/win-with-wooter-apparel" class="hover:text-gray-400"
+                    >Win With Wooter Apparel</a
+                  >
+                </div>
+              </li>
+
+              <a
+                href="/wholesale"
+                class="text-gray-700 hover:text-gray-400 font-medium"
+                >Wholesale <span class="text-gray-400">/</span></a
+              >
+
+              <li class="relative group">
+                <a
+                  href="#"
+                  class="text-gray-700 hover:text-gray-400 font-medium"
+                  >Help <span class="text-gray-400">/</span></a
+                >
+
+                <div
+                  class="absolute px-2 py-2 w-40 shadow-md hidden group-hover:flex flex-col z-50 bg-white"
+                >
+
+                  <a href="/Term_&_condition.html" class="hover:text-gray-400"
+                    >Terms & Conditions</a
+                  >
+                  <a href="/Privacy_policy.html" class="hover:text-gray-400"
+                    >Privacy Policy</a
+                  >
+                </div>
+              </li>
+
+              <a
+                href="/reviews"
+                class="text-gray-700 hover:text-gray-400 font-medium"
+                >Reviews <span class="text-gray-400">/</span></a
+              >
+
+              <a
+                href="/pricing"
+                class="text-gray-700 hover:text-gray-400 font-medium"
+                >Pricing <span class="text-gray-400">/</span></a
+              >
+
+              <a
+                href="/request"
+                class="text-gray-700 hover:text-gray-400 font-medium"
+                >Quote <span class="text-gray-400">/</span></a
+              >
+
+              <a
+                href="tel:3478502720"
+                class="text-gray-700 hover:text-gray-400 font-medium"
+                >(347) 850-2720 <span class="text-gray-400">/</span></a
+              >
+      </ul>
+    </div>
+
+    <!-- HAMBURGER (Mobile) -->
+    <div class="block sm:hidden">
+      <button id="mobile-toggle">
+        <i class="fa-solid fa-bars text-2xl"></i>
+      </button>
+    </div>
+  </div>
+
+  <!-- MOBILE MENU -->
+  <div id="mobile-nav" class="hidden sm:hidden px-4 py-3">
+    <!-- Your mobile menu here -->
+    <ul class="flex items-center justify-center flex-col space-y-2 text-gray-700 font-medium text-sm">
+        <!-- Teams Uniform Dropdown -->
+        <li>
+          <button class="w-full flex justify-between items-center px-2 py-2" onclick="toggleDropdown('team-submenu')">
+            Teams Uniform <i class="fa-solid fa-chevron-down text-xs"></i>
+          </button>
+          <ul id="team-submenu" class="pl-4 hidden flex-col space-y-1">
+            <li><a href="/basketball" class="block hover:text-gray-400">Basketball</a></li>
+            <li>  <a href="/product_pages/Baseball.html" class="hover:text-gray-400">Baseball</a></li>
+            <li><a href="/product_pages/Football.html" class="hover:text-gray-400"
+                    >Flag Football</a
+                  ></li>
+             <li> <a href="/product_pages/CheerLeading.html" class="hover:text-gray-400"
+                    >Cheerleading</a
+                  ></li>
+
+                  <li>
+                  <a href="/product_pages/cricket.html" class="hover:text-gray-400">Cricket</a></li>
+
+                  <li>
+                  <a href="/product_pages/FieldHockey.html" class="hover:text-gray-400"
+                    >Field Hockey</a
+                  ></li>
+
+                  <li>
+                  
+                  <a href="/product_pages/bowling.html" class="hover:text-gray-400">Bowling</a></li>
+                
+<li> <a href="/product_pages/cycling.html" class="hover:text-gray-400">Cycling</a></li>
+                 
+                  <li>
+                  <a href="/product_pages/Golf.html" class="hover:text-gray-400">Golf</a></li>
+
+                  <li>
+                  <a href="/product_pages/Esports.html" class="hover:text-gray-400">Esports</a>
+</li>
+
+                 
+<li>      <a href="/custom-team-uniforms" class="hover:text-gray-400"></a></li>
+
+          
+
+          </ul>
+        </li>
+
+        <!-- Custom Apparel Dropdown -->
+        <li>
+          <button class="w-full flex justify-between items-center px-2 py-2" onclick="toggleDropdown('apparel-submenu')">
+            Custom Apparel <i class="fa-solid fa-chevron-down text-xs"></i>
+          </button>
+          <ul id="apparel-submenu" class="pl-4 hidden flex-col space-y-1">
+            
+       
+            <li><a href="/product_pages/Bags.html" class="block hover:text-gray-400">Bags</a></li>
+          </ul>
+        </li>
+
+ <!-- Company Dropdown -->
+   <li>
+          <button class="w-full flex justify-between items-center px-2 py-2" onclick="toggleDropdown('company-submenu')">
+         Company <i class="fa-solid fa-chevron-down text-xs"></i>
+          </button>
+          <ul id="company-submenu" class="pl-4 hidden flex-col space-y-1">
+          
+            <li><a href="/team" class="hover:text-gray-400">Team</a></li>
+              <li>
+                  <a href="/what-is-wooter" class="hover:text-gray-400"
+                    >What is Wooter?</a
+                  ></li>
+          </ul>
+        </li>
+
+
+
+
+
+ <!-- help Dropdown -->
+   <li>
+          <button class="w-full flex justify-between items-center px-2 py-2" onclick="toggleDropdown('help-submenu')">
+         Help <i class="fa-solid fa-chevron-down text-xs"></i>
+          </button>
+          <ul id="help-submenu" class="pl-4 hidden flex-col space-y-1">
+            <li> <a href="/Term_&_condition.html" class="hover:text-gray-400"
+                    >Terms & Conditions</a
+                  ></li>
+                  <li>
+                  <a href="/Privacy_policy.html" class="hover:text-gray-400"
+                    >Privacy Policy</a
+                  ></li>
+           
+          </ul>
+        </li>
+
+
+
+
+
+        <!-- Simple Links -->
+      
+       
+        <li><a href="/pricing" class="block px-2 py-1 hover:text-gray-400">Pricing</a></li>
+        <li><a href="/request" class="block px-2 py-1 hover:text-gray-400">Quote</a></li>
+        <li><a href="tel:3478502720" class="block px-2 py-1 hover:text-gray-400">(347) 850-2720</a></li>
+      </ul>
+  </div>
+</nav>
+<!-- ----------NAVBAR---------------->
+
+    <!-- -------------HERO-------------- -->
+
+    <div
+      class="relative h-[23rem] md:h-[18rem] bg-cover bg-center bg-no-repeat justify-center xl:mx-[10rem]"
+      style="
+        background-image: url('/images/pages_hero/privacy.webp');
+      "
+    >
+      <!-- Overlay -->
+      <div class="absolute inset-0 bg-black bg-opacity-10"></div>
+
+      <!-- Text on top -->
+      <div class="absolute inset-0 top-[6rem] left-10">
+        <h1 class="text-white text-4xl font-bold text-center">
+Privacy Policys
+        </h1>
+       
+      </div>
+    </div>
+    <!-- -------------HERO-------------- -->
+
+
+<div class="container mx-auto w-[90%]">
+<h2 class="text-3xl text-center font-bold py-4">WOOTER APPAREL </h2>
+<p class="text-2xl text-center font-semibold pb-3">Privacy Policy</p>
+<p class="text-center text-1xl leading-relaxed w-[70%] mx-auto">Your use of Wooter Apparel (“Wooter”) products available at www.wooterapparel.com and www.wooter.com is subject to the terms of this legal agreement between you, Wooter Apparel Inc. and Wooter, LLC., as amended from time to time. 
+
+</p>
+
+</div>
+
+<hr class="w-[84%] mx-auto my-3 text-gray-700">
+
+
+<section class="w-[90%] md:w-[70%] mx-auto py-12">
+  <!-- Heading -->
+  <h1 class="text-2xl font-semibold mb-6">Privacy Policy</h1>
+
+  <p class="text-gray-700 mb-6 leading-relaxed">
+    This Privacy Policy describes how Wooter Apparel collects, uses, and shares information when you use our website located at 
+    <a href="https://wooterapparel.com" class="text-blue-600 hover:underline">wooterapparel.com</a> (the "Site")
+    and the services provided through the Site (the "Services"). By using the Site or Services, you agree to the terms of this Privacy Policy.
+  </p>
+
+  <!-- 1. Information We Collect -->
+  <h2 class="text-xl font-semibold mt-8 mb-3">1. Information We Collect</h2>
+  <p class="text-gray-700 mb-4 leading-relaxed">
+    We may collect the following types of information when you use our Site or Services:
+  </p>
+
+  <ul class="list-disc list-inside text-gray-700 space-y-2 mb-6">
+    <li>
+      <strong>Customer Data:</strong> Information provided by you when you register an account, place an order, or communicate with us, 
+      such as your name, email address, shipping address, and payment information.
+    </li>
+    <li>
+      <strong>Usage Data:</strong> Information about how you interact with our Site or Services, such as your IP address, 
+      browser type, pages visited, and the date and time of your visit.
+    </li>
+  </ul>
+
+  <!-- 2. How We Collect Information -->
+  <h2 class="text-xl font-semibold mt-8 mb-3">2. How We Collect Information</h2>
+  <p class="text-gray-700 mb-4 leading-relaxed">
+    We collect information when you:
+  </p>
+
+  <ul class="list-disc list-inside text-gray-700 space-y-2 mb-6">
+    <li>Create an account on our Site.</li>
+    <li>Place an order for our products.</li>
+    <li>Contact us for customer support or other inquiries.</li>
+    <li>Interact with our Site or Services, such as by browsing or making a purchase.</li>
+  </ul>
+
+  <!-- 3. How We Use the Data -->
+  <h2 class="text-xl font-semibold mt-8 mb-3">3. How We Use the Data</h2>
+  <p class="text-gray-700 mb-4 leading-relaxed">
+    We use the information we collect for the following purposes:
+  </p>
+
+  <ul class="list-disc list-inside text-gray-700 space-y-2 mb-6">
+    <li>To provide and improve our Services.</li>
+    <li>To process transactions and fulfill orders.</li>
+    <li>To communicate with you regarding your account or orders.</li>
+    <li>To enhance the user experience and analyze website performance.</li>
+  </ul>
+
+  <!-- 4. Cookies -->
+  <h2 class="text-xl font-semibold mt-8 mb-3">4. Cookies</h2>
+  <p class="text-gray-700 mb-6 leading-relaxed">
+    We use cookies and similar tracking technologies to collect Usage Data and improve your experience on our Site. 
+    You can manage your cookie preferences through your browser settings.
+  </p>
+
+  <!-- 5. Data Storage -->
+  <h2 class="text-xl font-semibold mt-8 mb-3">5. Data Storage</h2>
+  <p class="text-gray-700 mb-6 leading-relaxed">
+    Your information may be stored and processed in the United States or any other country where Wooter Apparel 
+    or its affiliates, subsidiaries, or service providers maintain facilities. We take steps to ensure that your 
+    information is treated securely and in accordance with this Privacy Policy.
+  </p>
+
+  <!-- 6. Contact Information/Personal Information -->
+  <h2 class="text-xl font-semibold mt-8 mb-3">6. Contact Information/Personal Information</h2>
+  <p class="text-gray-700 mb-6 leading-relaxed">
+    We may use your contact information to communicate with you about your orders, promotions, and updates related to 
+    our Site or Services. We will not sell or rent your personal information to third parties for marketing purposes 
+    without your explicit consent.
+  </p>
+
+  <!-- 7. How Personal Information is Protected -->
+  <h2 class="text-xl font-semibold mt-8 mb-3">7. How Personal Information is Protected</h2>
+  <p class="text-gray-700 mb-6 leading-relaxed">
+    We implement reasonable security measures to protect your personal information from unauthorized access, disclosure, 
+    alteration, or destruction. However, no method of transmission over the Internet or electronic storage is 100% secure, 
+    and we cannot guarantee absolute security.
+  </p>
+
+  <!-- 8. Changes to the Privacy Policy -->
+  <h2 class="text-xl font-semibold mt-8 mb-3">8. Changes to the Privacy Policy</h2>
+  <p class="text-gray-700 mb-6 leading-relaxed">
+    We may update this Privacy Policy from time to time by posting a new version on our Site. We will notify you of any 
+    material changes by email or through a prominent notice on our Site. Your continued use of the Site or Services after 
+    any such changes constitutes your acceptance of the revised Privacy Policy.
+  </p>
+
+  <!-- Contact Us -->
+  <h2 class="text-xl font-semibold mt-8 mb-3">Contact Us</h2>
+  <p class="text-gray-700 leading-relaxed">
+    If you have any questions or concerns about this Privacy Policy, please contact us at 
+    <a href="mailto:support@wooterapparel.com" class="text-blue-600 hover:underline">support@wooterapparel.com</a>.
+  </p>
+</section>
+
+
+
+
+<hr class="w-[84%] mx-auto my-3 text-gray-700">
+
+<!-- ------footer------- -->
+<footer class="container mx-auto px-4 py-6">
+  <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-4">
+    
+    <!-- Column 1 -->
+    <div>
+      <img src="https://images.squarespace-cdn.com/content/v1/572a977a45bf21aba915b8ff/4a375a7c-8234-4c84-be2c-7bf06450a7e1/Wooter+Logo+Primary?format=1500w" alt="">
+      <div class="flex items-center justify-center gap-8 py-2">
+        <i class="text-2xl bi bi-facebook"></i>
+        <i class="text-2xl bi bi-instagram"></i>
+        <i class="text-2xl bi bi-twitter"></i>
+      </div>
+    </div>
+
+    <!-- Column 2 -->
+    <div class="flex justify-center items-center">
+      <button>
+        <a href="https://wooter.com" target="_blank" class="uppercase text-red-500 border-2 border-red-600 px-4 py-3 rounded-5">
+          Order Now
+        </a>
+      </button>
+    
+    </div>
+
+    <!-- Column 3 -->
+    <div class="flex justify-center items-center">
+      <img src="https://share.trustpilot.com/images/company-rating?locale=en-US&amp;businessUnitId=5d0d19a609d4e90001259bf8" alt="">
+    </div>
+
+    <!-- Column 4 -->
+    <div class="flex justify-center items-center">
+      <img src="https://images.squarespace-cdn.com/content/v1/572a977a45bf21aba915b8ff/1513228411504-ESBQXSGBW0ZO9KSKN9FD/Wooter+Apparel+-+Payment+Methods+-+Custom+Sports+Uniforms" alt="">
+    </div>
+
+    <!-- Column 5 -->
+    <div class="flex flex-col items-center gap-2">
+      <img class="w-40" src="https://images.squarespace-cdn.com/content/v1/572a977a45bf21aba915b8ff/328550f3-6873-4771-b0f5-601193bed07a/Wooter+-+Download+App" alt="">
+      <img class="w-40" src="https://images.squarespace-cdn.com/content/v1/572a977a45bf21aba915b8ff/1579230905183-MSFF8QRRLT73QN0G7PF3/24%2F7+support+and+satisfaction+guarantee+-+Custom+Sports+Uniforms+Best+Prices+%26+Support" alt="">
+    </div>
+
+  </div>
+</footer>
+<!-- ------footer------- -->
+
+
+
+</body>
+
+
+<!-- Script for Hamburger & Dropdowns -->
+<script>
+  function toggleDropdown(id) {
+    const el = document.getElementById(id);
+    el.classList.toggle('hidden');
+  }
+
+  document.getElementById("mobile-toggle").addEventListener("click", () => {
+    document.getElementById("mobile-nav").classList.toggle("hidden");
+  });
+</script>
+
+ <!-- -----swipper js------ -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js"></script>
+  <script>
+  var swiper = new Swiper(".mySwiper", {
+    slidesPerView: 2,
+    slidesPerGroup: 2,
+    spaceBetween: 20,
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+    breakpoints: {
+      // When window width is >= 1024px
+      1024: {
+        slidesPerView: 5,
+        slidesPerGroup: 5,
+      },
+    }
+  });
+</script>
+<!-- -----swipper js------ -->
+ <script src="https://cdn.tailwindcss.com"></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+    crossorigin="anonymous"
+  ></script>
+
+
+
+
+</html>

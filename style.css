@@ -1,0 +1,35 @@
+/* Outer swiper container */
+.swiper.marquee-logo {
+    margin-top: 2rem;
+    mask-image: linear-gradient(
+      to right,
+      transparent 0%,
+      white 10%,
+      white 90%,
+      transparent 100%
+    );
+  }
+  
+  /* Inner wrapper */
+  .swiper-wrapper.marquee-logo-wrapper {
+    transition-timing-function: linear;
+    align-items: center;
+  }
+  
+  /* Slide */
+  .swiper-slide.marquee-logo-slide {
+    flex-shrink: 0;
+    width: 11rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Logo */
+  .logo {
+    width: 7rem;
+    object-fit: contain;
+  }
+  

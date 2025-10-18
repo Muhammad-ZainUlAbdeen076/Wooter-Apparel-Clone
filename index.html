@@ -1,0 +1,1473 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wooter</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+<!-- Swiper CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+  <style>
+    /* Desktop dropdown appear on hover */
+    .dropdown:hover .dropdown-menu {
+      display: flex;
+    }
+  </style>
+
+  </head>
+
+  <body>
+
+  <!-- ----------NAVBAR------------- -->
+<nav class="bg-white shadow">
+  <div class="w-full px-4 md:px-8 py-3 flex items-center justify-between">
+    
+    <!-- LOGO -->
+    <div class="sm:pl-[4rem] md:pl-[10rem]">
+      <img src="/images/logo.png" class="h-10 sm:h-12 md:h-14 w-auto" />
+    </div>
+
+    <!-- DESKTOP MENU -->
+    <div class="hidden sm:block  sm:pr-[2rem] md:pr-[4rem]">
+      <ul class="space-x-4 text-[13px] sm:flex  justify-center  flex-wrap">
+                      <li class="relative group">
+                <a
+                  href="#"
+                  class="text-gray-700 hover:text-gray-400 font-medium"
+                  >TEAMS UNIFORM <span class="text-gray-400">/</span></a
+                >
+
+                <div
+                  class="absolute px-2 py-2 w-40 bg-white shadow-md hidden group-hover:flex flex-col z-50"
+                >
+                  
+
+                  <a href="/product_pages/Football.html" class="hover:text-gray-400">Football</a>
+
+                  <a href="/product_pages/Baseball.html" class="hover:text-gray-400">Baseball</a>
+
+                 
+                  
+
+                  <a href="/product_pages/Football.html" class="hover:text-gray-400"
+                    >Flag Football</a
+                  >
+
+                  <a href="/product_pages/CheerLeading.html" class="hover:text-gray-400"
+                    >Cheerleading</a
+                  >
+
+                  <a href="/product_pages/cricket.html" class="hover:text-gray-400">Cricket</a>
+
+            
+
+                  <a href="/product_pages/FieldHockey.html" class="hover:text-gray-400"
+                    >Field Hockey</a
+                  >
+
+                  
+                  <a href="/product_pages/bowling.html" class="hover:text-gray-400">Bowling</a>
+
+           
+
+                  <a href="/product_pages/cycling.html" class="hover:text-gray-400">Cycling</a>
+                  
+                  <a href="/product_pages/Golf.html" class="hover:text-gray-400">Golf</a>
+
+                  <a href="/product_pages/Esports.html" class="hover:text-gray-400">Esports</a>
+
+                 
+
+                  <a href="/custom-team-uniforms" class="hover:text-gray-400"
+                    >VIEW ALL...</a
+                  >
+                </div>
+              </li>
+
+              <li class="relative group">
+                <a
+                  href="#"
+                  class="text-gray-700 hover:text-gray-400 font-medium"
+                  >Custom Apparel <span class="text-gray-400">/</span></a
+                >
+
+                <div
+                  class="absolute px-2 py-2 w-40 bg-white shadow-md hidden group-hover:flex flex-col z-50"
+                >
+                 
+                  <a class="hover:text-gray-400" href="/product_pages/Bags.html"
+                    >Bags and Backpacks</a
+                  >
+                 
+                </div>
+              </li>
+
+              <li class="relative group">
+                <a
+                  href="#"
+                  class="text-gray-700 hover:text-gray-400 font-medium"
+                  >Designs <span class="text-gray-400">/</span></a
+                >
+
+                <div
+                  class="absolute px-2 py-2 w-40 bg-white shadow-md hidden group-hover:flex flex-col z-50"
+                >
+                 
+                  <a href="/product_pages/Football.html" class="hover:text-gray-400"
+                    >Football</a
+                  >
+                  
+                  <a href="/product_pages/CheerLeading.html" class="hover:text-gray-400"
+                    >Cheerleading</a
+                  >
+                 
+                 
+                  <a href="/product_pages/FieldHockey.html" class="hover:text-gray-400"
+                    >Field Hockey</a
+                  >
+                 
+                  <a href="/product_pages/bowling.html" class="hover:text-gray-400"
+                    >Bowling</a>
+                </div>
+              </li>
+
+              <li class="relative group">
+                <a
+                  href="#"
+                  class="text-gray-700 hover:text-gray-400 font-medium"
+                  >Company <span class="text-gray-400">/</span></a
+                >
+
+                <div
+                  class="absolute px-2 py-2 w-40 shadow-md hidden group-hover:flex flex-col z-50 bg-white"
+                >
+                  
+                  <a href="/team" class="hover:text-gray-400">Team</a>
+                  <a href="/what-is-wooter" class="hover:text-gray-400"
+                    >What is Wooter?</a
+                  >
+              
+                </div>
+              </li>
+
+              <li class="relative group">
+                <a
+                  href="#"
+                  class="text-gray-700 hover:text-gray-400 font-medium"
+                  >Community <span class="text-gray-400">/</span></a
+                >
+
+                <div
+                  class="absolute px-2 py-2 w-40 shadow-md hidden group-hover:flex flex-col z-50 bg-white"
+                >
+                
+                
+                  <a href="/win-with-wooter-apparel" class="hover:text-gray-400"
+                    >Win With Wooter Apparel</a
+                  >
+                </div>
+              </li>
+
+              <a
+                href="/wholesale"
+                class="text-gray-700 hover:text-gray-400 font-medium"
+                >Wholesale <span class="text-gray-400">/</span></a
+              >
+
+              <li class="relative group">
+                <a
+                  href="#"
+                  class="text-gray-700 hover:text-gray-400 font-medium"
+                  >Help <span class="text-gray-400">/</span></a
+                >
+
+                <div
+                  class="absolute px-2 py-2 w-40 shadow-md hidden group-hover:flex flex-col z-50 bg-white"
+                >
+
+                  <a href="/Term_&_condition.html" class="hover:text-gray-400"
+                    >Terms & Conditions</a
+                  >
+                  <a href="/Privacy_policy.html" class="hover:text-gray-400"
+                    >Privacy Policy</a
+                  >
+                </div>
+              </li>
+
+              <a
+                href="/reviews"
+                class="text-gray-700 hover:text-gray-400 font-medium"
+                >Reviews <span class="text-gray-400">/</span></a
+              >
+
+              <a
+                href="/pricing"
+                class="text-gray-700 hover:text-gray-400 font-medium"
+                >Pricing <span class="text-gray-400">/</span></a
+              >
+
+              <a
+                href="/request"
+                class="text-gray-700 hover:text-gray-400 font-medium"
+                >Quote <span class="text-gray-400">/</span></a
+              >
+
+              <a
+                href="tel:3478502720"
+                class="text-gray-700 hover:text-gray-400 font-medium"
+                >(347) 850-2720 <span class="text-gray-400">/</span></a
+              >
+      </ul>
+    </div>
+
+    <!-- HAMBURGER (Mobile) -->
+    <div class="block sm:hidden">
+      <button id="mobile-toggle">
+        <i class="fa-solid fa-bars text-2xl"></i>
+      </button>
+    </div>
+  </div>
+
+  <!-- MOBILE MENU -->
+  <div id="mobile-nav" class="hidden sm:hidden px-4 py-3">
+    <!-- Your mobile menu here -->
+    <ul class="flex items-center justify-center flex-col space-y-2 text-gray-700 font-medium text-sm">
+        <!-- Teams Uniform Dropdown -->
+        <li>
+          <button class="w-full flex justify-between items-center px-2 py-2" onclick="toggleDropdown('team-submenu')">
+            Teams Uniform <i class="fa-solid fa-chevron-down text-xs"></i>
+          </button>
+          <ul id="team-submenu" class="pl-4 hidden flex-col space-y-1">
+            <li><a href="/basketball" class="block hover:text-gray-400">Basketball</a></li>
+            <li>  <a href="/product_pages/Baseball.html" class="hover:text-gray-400">Baseball</a></li>
+            <li><a href="/product_pages/Football.html" class="hover:text-gray-400"
+                    >Flag Football</a
+                  ></li>
+             <li> <a href="/product_pages/CheerLeading.html" class="hover:text-gray-400"
+                    >Cheerleading</a
+                  ></li>
+
+                  <li>
+                  <a href="/product_pages/cricket.html" class="hover:text-gray-400">Cricket</a></li>
+
+                  <li>
+                  <a href="/product_pages/FieldHockey.html" class="hover:text-gray-400"
+                    >Field Hockey</a
+                  ></li>
+
+                  <li>
+                  
+                  <a href="/product_pages/bowling.html" class="hover:text-gray-400">Bowling</a></li>
+                
+<li> <a href="/product_pages/cycling.html" class="hover:text-gray-400">Cycling</a></li>
+                 
+                  <li>
+                  <a href="/product_pages/Golf.html" class="hover:text-gray-400">Golf</a></li>
+
+                  <li>
+                  <a href="/product_pages/Esports.html" class="hover:text-gray-400">Esports</a>
+</li>
+
+                 
+<li>      <a href="/custom-team-uniforms" class="hover:text-gray-400"></a></li>
+
+          
+
+          </ul>
+        </li>
+
+        <!-- Custom Apparel Dropdown -->
+        <li>
+          <button class="w-full flex justify-between items-center px-2 py-2" onclick="toggleDropdown('apparel-submenu')">
+            Custom Apparel <i class="fa-solid fa-chevron-down text-xs"></i>
+          </button>
+          <ul id="apparel-submenu" class="pl-4 hidden flex-col space-y-1">
+            
+       
+            <li><a href="/product_pages/Bags.html" class="block hover:text-gray-400">Bags</a></li>
+          </ul>
+        </li>
+
+ <!-- Company Dropdown -->
+   <li>
+          <button class="w-full flex justify-between items-center px-2 py-2" onclick="toggleDropdown('company-submenu')">
+         Company <i class="fa-solid fa-chevron-down text-xs"></i>
+          </button>
+          <ul id="company-submenu" class="pl-4 hidden flex-col space-y-1">
+          
+            <li><a href="/team" class="hover:text-gray-400">Team</a></li>
+              <li>
+                  <a href="/what-is-wooter" class="hover:text-gray-400"
+                    >What is Wooter?</a
+                  ></li>
+          </ul>
+        </li>
+
+
+
+
+
+ <!-- help Dropdown -->
+   <li>
+          <button class="w-full flex justify-between items-center px-2 py-2" onclick="toggleDropdown('help-submenu')">
+         Help <i class="fa-solid fa-chevron-down text-xs"></i>
+          </button>
+          <ul id="help-submenu" class="pl-4 hidden flex-col space-y-1">
+            <li> <a href="/Term_&_condition.html" class="hover:text-gray-400"
+                    >Terms & Conditions</a
+                  ></li>
+                  <li>
+                  <a href="/Privacy_policy.html" class="hover:text-gray-400"
+                    >Privacy Policy</a
+                  ></li>
+           
+          </ul>
+        </li>
+
+
+
+
+
+        <!-- Simple Links -->
+      
+       
+        <li><a href="/pricing" class="block px-2 py-1 hover:text-gray-400">Pricing</a></li>
+        <li><a href="/request" class="block px-2 py-1 hover:text-gray-400">Quote</a></li>
+        <li><a href="tel:3478502720" class="block px-2 py-1 hover:text-gray-400">(347) 850-2720</a></li>
+      </ul>
+  </div>
+</nav>
+<!-- ----------NAVBAR------------- -->
+
+    <!-- -------------HERO-------------- -->
+
+    <div
+      class="relative h-[23rem] md:h-[18rem] bg-cover bg-center bg-no-repeat justify-center xl:mx-[10rem]"
+      style="
+        background-image: url('/images/Wooter-Apparel---Landing-page-Banner_71431d0cc6e7046950f15bfbf9388b8f-min.jpg');
+      "
+    >
+      <!-- Overlay -->
+      <div class="absolute inset-0 bg-black bg-opacity-10"></div>
+
+      <!-- Text on top -->
+      <div class="absolute inset-0 top-[6rem] left-10">
+        <h1 class="text-white text-3xl sm:text-4xl font-bold text-center">
+          Wooter Apparel - Fully Customizable Team Uniforms & Apparel
+        </h1>
+        <h3 class="block text-white text-1xl sm:text-2xl mx-auto text-center">
+          Wooter Apparel empowers teams and athletes around the world by
+          offering the best sublimated uniforms and apparel at unbeatable
+          prices.
+        </h3>
+      </div>
+    </div>
+    <!-- -------------HERO-------------- -->
+
+    <!-- ------------PAAGE BODY HEADER------------ -->
+    <div class="container-fluid">
+      <div class="row text-center xl:mx-[10rem]">
+        <div class="col-12 my-[24px]">
+          <h1 class="text-[24px] font-bold text-black">
+            The #1 Shop for Custom Team Gear, Custom Uniforms and Apparel
+          </h1>
+        </div>
+        <div class="col-12 mb-[20px]">
+          <h3
+            class="text-[18px]  text-[rgb(3 3 3 / 70%)] font-light"
+          >
+            Wooter Apparel is the leading provider of customizable team uniforms
+            and fan gear for any sport. Our commitment to quality and service
+            sets us apart from the competition. With a team of talented
+            designers, we bring creativity and expertise to each project to
+            create the perfect uniform for your team.
+          </h3>
+        </div>
+        <div class="col-12 text-[18px] font-bold text-gray-600">
+          🏆 Lowest prices guaranteed. <br />
+          🔥 Every sport available, plus fully-custom designs. <br />
+          🌎 Fastest 2-3 week turnaround and worldwide shipping.
+        </div>
+
+        <hr class="my-4 text-gray-600" />
+      </div>
+    </div>
+    <!-- ------------PAAGE BODY HEADER------------ -->
+
+    <div class="container-fluid">
+      <div class="text-center">
+        
+        <p class="whitespace-pre-wrap py-2">
+          Start Your Custom Order Today! Let us bring your design to life!
+        </p>
+        <div class=" text-center">
+        <p class="py-2">
+          📞 CALL:
+          <a href="tel:3478502720" target="_blank"
+            ><strong>(347) 850-2720</strong></a
+          ><strong> </strong>or<strong> </strong>💬 <strong>Live Chat:</strong>
+          <em>Available 24/7 or </em>📧<em> </em
+          ><a href="https://wooterapparel.com/basketball#contact"
+            ><strong>Contact a Sales Representative Today!</strong></a
+          >
+        </p>
+      </div>
+        <p class=" py-2">
+          Real and friendly people, no robots, no wait... always ready to help.
+          Call us now!
+        </p>
+    
+        <button class="btn bg-danger text-white rounded-[300px] my-3 px-3 py-3">
+          <a href="https://wooterapparel.com/request">
+            GET A FREE DESIGN AND QUOTE
+          </a>
+        </button>
+      </div>
+    </div>
+
+  
+<div class="mb-3 w-[84%] mx-auto">
+<div class="flex items-center justify-between  ">
+  <p class="text-[20px] text-black">Real Reviews From Real Customers<b class="text-red-500 pl-3">See All Reviews</b></p>
+  <div class="flex gap-2">
+  <img src="/images/illustration-of-a-star-five-yellow-rating-stars-vector.jpg" alt="rating" class="h-[30px]">
+  <p>1680 Reviews</p>
+</div> 
+
+</div>
+ 
+<hr class="mx-auto mb-2">
+</div>
+
+ <!-- Swipper Carousel Section -->
+ <div class="mx-auto py-[1rem] px-[1rem] sm:px-[2rem] md:px-[10rem]">
+  <section class="swiper review-carousel ">
+    <div class="swiper-wrapper">
+
+      <!-- Slide 1 -->
+      <div class="swiper-slide container-fluid ">
+        <div class="flex">
+          <img src="/images/illustration-of-a-star-five-yellow-rating-stars-vector.jpg" alt="star-review" class="w-[5rem]">
+          <span>07/09/20</span>
+        </div>
+        <div>
+          <p class="text-black text-[1rem] font-bold">Kingsmen Basketball Uniforms 1 </p>
+        </div>
+
+        <div class="flex">
+          <div style="border: 1px solid #e1e5ee">
+            <img
+              src="/images/square (1).webp"
+              alt="Product image for Baseball"
+            />
+            <div>Baseball</div>
+          </div>
+
+          <div class="w-[13rem] mx-3">
+            <p style="font-family: 'Open Sans', sans-serif;" class="text-[14px]"><i>
+              Great company, uniforms were awesome and the customer service was even
+              better. The uniforms are very well made and of great qualit...
+            </i></p>
+            <div><p class="text-red-400 font-bold">Read More</p></div>
+            <div><b><p>Roland J.</p></b></div>
+          </div>
+        </div>
+      
+      </div>
+
+      <div class="swiper-slide container-fluid">
+        <div class="flex">
+          <img src="/images/illustration-of-a-star-five-yellow-rating-stars-vector.jpg" alt="star-review" class="w-[5rem]">
+          <span>04/02/20</span>
+        </div>
+        <div>
+          <p class="text-black text-[1rem] font-bold"> Well worth the money! </p>
+        </div>
+
+        <div class="flex">
+          <div style="border: 1px solid #e1e5ee">
+            <img
+              src="/images/pic3.webp"
+              alt="Product image for Baseball"
+            />
+            <div>Baseball</div>
+          </div>
+
+          <div class="w-[13rem] mx-3">
+            <p style="font-family: 'Open Sans', sans-serif;" class="text-[14px]"><i>
+              Good quality, very authentic jersey, nicely done customizable. Well worth the money! Would definitely recommend buying football je...
+            </i></p>
+            <div><p class="text-red-400 font-bold">Read More</p></div>
+            <div><b><p>Jason P.</p></b></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="swiper-slide container-fluid">
+        <div class="flex">
+          <img src="/images/illustration-of-a-star-five-yellow-rating-stars-vector.jpg" alt="star-review" class="w-[5rem]">
+          <span>08/05/20</span>
+        </div>
+        <div>
+          <p class="text-black text-[1rem] font-bold">Awesome product!</p>
+        </div>
+
+        <div class="flex">
+          <div style="border: 1px solid #e1e5ee">
+            <img
+              src="//cdn-yotpo-images-production.yotpo.com/Product/33859538/28466493/square.png?1510603988"
+              alt="Product image for Baseball"
+            />
+            <div>Baseball</div>
+          </div>
+
+          <div class="w-[13rem] mx-3">
+            <p style="font-family: 'Open Sans', sans-serif;" class="text-[14px]"><i>
+              Loved our softball uniforms. They have reasonable prices, and good quality products. I highly recommend them to anybody looking to...
+            </i></p>
+            <div><p class="text-red-400 font-bold">Read More</p></div>
+            <div><b><p>Jason P.</p></b></div>
+          </div>
+        </div>
+      </div>
+   
+
+    <div class="swiper-slide container-fluid">
+        <div class="flex">
+          <img src="/images/illustration-of-a-star-five-yellow-rating-stars-vector.jpg" alt="star-review" class="w-[5rem]">
+          <span>03/02/20</span>
+        </div>
+        <div>
+          <p class="text-black text-[1rem] font-bold">Kingsmen Basketball Uniforms 1 </p>
+        </div>
+
+        <div class="flex">
+          <div style="border: 1px solid #e1e5ee">
+            <img
+              src="/images/square (1).webp"
+              alt="Product image for Baseball"
+            />
+            <div>Baseball</div>
+          </div>
+
+          <div class="w-[13rem] mx-3">
+            <p style="font-family: 'Open Sans', sans-serif;" class="text-[14px]"><i>
+              Great company, uniforms were awesome and the customer service was even
+              better. The uniforms are very well made and of great qualit...
+            </i></p>
+            <div><p class="text-red-400 font-bold">Read More</p></div>
+            <div><b><p>Jason P.</p></b></div>
+          </div>
+        </div>
+      
+      </div>
+
+      <div class="swiper-slide container-fluid">
+        <div class="flex">
+          <img src="/images/illustration-of-a-star-five-yellow-rating-stars-vector.jpg" alt="star-review" class="w-[5rem]">
+          <span>06/02/20</span>
+        </div>
+        <div>
+          <p class="text-black text-[1rem] font-bold">Awesome product!</p>
+        </div>
+
+        <div class="flex">
+          <div style="border: 1px solid #e1e5ee">
+            <img
+              src="//cdn-yotpo-images-production.yotpo.com/Product/33859538/28466493/square.png?1510603988"
+              alt="Product image for Baseball"
+            />
+            <div>Baseball</div>
+          </div>
+
+          <div class="w-[13rem] mx-3">
+            <p style="font-family: 'Open Sans', sans-serif;" class="text-[14px]"><i>
+              Great company, uniforms were awesome and the customer service was even
+              better. The uniforms are very well made and of great qualit...
+            </i></p>
+            <div><p class="text-red-400 font-bold">Read More</p></div>
+            <div><b><p>Jason P.</p></b></div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+</div>
+ <!-- Swipper Carousel Section -->
+
+
+
+<!-- -----------SLIDE CAROSAL-------------- -->
+<div class="container mx-auto py-10">
+  <div class="swiper logoSwiper">
+    <div class="swiper-wrapper">
+      <!-- Logo Slides -->
+      <div class="swiper-slide flex justify-center items-center w-36">
+        <img src="/images/LOGO/031419_Emblem_02d0354749ab3315ee45ce7e0add9d00.jpg" alt="Logo 1" />
+      </div>
+      <div class="swiper-slide flex justify-center items-center w-36">
+        <img src="/images/LOGO/2068843_2.jpg" alt="Logo 2" />
+      </div>
+      <div class="swiper-slide flex justify-center items-center w-36">
+        <img src="/images/LOGO/AYF-LOGO-6.12.png" alt="Logo 3" />
+      </div>
+      <div class="swiper-slide flex justify-center items-center w-36">
+        <img src="/images/LOGO/basketballbeautiescustomwhitelogo_orig.png" alt="Logo 1" />
+      </div>
+      <div class="swiper-slide flex justify-center items-center w-36">
+        <img src="/images/LOGO/Indoor-Football-League-logo.png" alt="Logo 2" />
+      </div>
+      <div class="swiper-slide flex justify-center items-center w-36">
+        <img src="/images/LOGO/jm-tennis-academy-logo_0765d62f07db1a0136f7044aa662452f.jpg" alt="Logo 3" />
+      </div>
+      <div class="swiper-slide flex justify-center items-center w-36">
+        <img src="/images/LOGO/Screen_Shot_2019-09-05_at_6.36.43_PM_36bbf08a545bb5e744b2a013544d1821.png" alt="Logo 1" />
+      </div>
+      <div class="swiper-slide flex justify-center items-center w-36">
+        <img src="/images/LOGO/The_Salvation_Army.svg.png" alt="Logo 2" />
+      </div>
+      <div class="swiper-slide flex justify-center items-center w-36">
+        <img src="/images/LOGO/ZT4ubm82_948b2f09e3b5eaa6c2057d77a5375217.png" alt="Logo 3" />
+      </div>
+      <div class="swiper-slide flex justify-center items-center w-36">
+        <img src="/images/LOGO/1280px-Twitch_logo.svg.png" alt="Logo 1" />
+      </div>
+      <div class="swiper-slide flex justify-center items-center w-36">
+        <img src="/images/LOGO/031419_Emblem_02d0354749ab3315ee45ce7e0add9d00.jpg" alt="Logo 2" />
+      </div>
+      <div class="swiper-slide flex justify-center items-center w-36">
+        <img src="/images/LOGO/Screen+Shot+2019-09-05+at+6.38.04+PM.png" alt="Logo 3" />
+      </div>
+      <div class="swiper-slide flex justify-center items-center w-36">
+        <img src="/images/LOGO/jm-tennis-academy-logo_0765d62f07db1a0136f7044aa662452f (1).jpg" alt="Logo 1" />
+      </div>
+      <div class="swiper-slide flex justify-center items-center w-36">
+        <img src="/images/LOGO/1200px-Patch_of_the_New_York_City_Police_Department.svg.png" alt="Logo 2" />
+      </div>
+      <div class="swiper-slide flex justify-center items-center w-36">
+        <img src="/images/LOGO/basketballbeautiescustomwhitelogo_orig (1).png" alt="Logo 3" />
+      </div>
+      <!-- Add more as needed -->
+    </div>
+  </div>
+</div>
+<!-- -----------SLIDE CAROSAL-------------- -->
+
+
+
+<hr class="md:w-[84%] mx-auto my-2 text-gray-700">
+  
+<!-- ---------CARTS 1----------- -->
+<div class="w-[80%] mx-auto">
+  <p class="text-center text-2xl py-4">Wooter Apparel is available for men and women, including youth and adult sizes.</p>
+
+  <div class="container py-5">
+    <div class="row g-4">
+      
+      <!-- Cart 1 -->
+      <div class="col-sm-6 col-md-4 col-lg-2">
+        <div class="card mx-auto border-0  w-[16rem] md:w-[10rem]">
+          <img src="/images/cart images/Wooter-Apparel-Custom-Bags-Backpacks-Duffel-3D-Mockup.png" alt="Product">
+          <div class="card-body">
+            <h5 class="font-bold text-[11px]">BAG</h5>
+            <p class="text-[10px]"><i >AS LOW AS: </i><b>$34.99/BAGPACK</b></p>
+            <p class="text-[10px]"><i >OR: </i><b>$39.99/BAT BAG</b></p>
+          </div>
+        </div>
+      </div>
+  
+         <!-- Cart 2 -->
+         <div class="col-sm-6 col-md-4 col-lg-2">
+          <div class="card mx-auto border-0  w-[16rem] md:w-[10rem]" >
+            <img src="/images/cart images/Wooter-Apparel-Custom-Baseball-Uniforms-3D-Mockup.png"  alt="Product">
+            <div class="card-body">
+              <h5 class="font-bold text-[11px]">BASKETBALL</h5>
+              <p class="text-[10px]"><i >AS LOW AS: </i><b>$49.99/SET</b></p>
+              <p class="text-[10px]"><i >OR: </i><b>$24.99/JERSEY</b></p>
+            </div>
+          </div>
+        </div>
+
+           <!-- Cart 3 -->
+      <div class="col-sm-6 col-md-4 col-lg-2">
+        <div class="card mx-auto border-0  w-[16rem] md:w-[10rem]"  >
+          <img src="/images/cart images/Wooter-Apparel-Custom-Basketball-Uniforms-3D-Mockup.png"  alt="Product">
+          <div class="card-body">
+            <h5 class="font-bold text-[11px]">BASKETBALL</h5>
+            <p class="text-[10px]"><i >AS LOW AS: </i><b>$39.99/SET</b></p>
+            <p class="text-[10px]"><i >OR: </i><b>$19.99/JERSEY</b></p>
+          </div>
+        </div>
+      </div>
+
+         <!-- Cart 4 -->
+         <div class="col-sm-6 col-md-4 col-lg-2">
+          <div class="card  mx-auto border-0  w-[16rem] md:w-[10rem]"  >
+            <img src="/images/cart images/Wooter-Apparel-Custom-Bowling-Shirts-Jerseys-3D-Mockup.png"  alt="Product">
+            <div class="card-body">
+              <h5 class="font-bold text-[11px]">BOWLING</h5>
+              <p class="text-[10px]"><i >AS LOW AS: </i><b>$19.99/POLO</b></p>
+              <p class="text-[10px]"><i >OR: </i><b>$24.99/SHIRT</b></p>
+            </div>
+          </div>
+        </div>
+
+              <!-- Cart 5 -->
+      <div class="col-sm-6 col-md-4 col-lg-2">
+        <div class="card  mx-auto border-0  w-[16rem] md:w-[10rem]"  >
+          <img src="/images/cart images/Wooter-Apparel-Custom-Football-Uniforms-3D-Mockup (1).png"  alt="Product">
+          <div class="card-body">
+            <h5 class="font-bold text-[11px]">FOOTBALL</h5>
+            <p class="text-[10px]"><i >AS LOW AS: </i><b>$59.99/SET</b></p>
+            <p class="text-[10px]"><i >OR: </i><b>$34.99/JERSEY</b></p>
+          </div>
+        </div>
+      </div>
+
+            <!-- Cart 6 -->
+            <div class="col-sm-6 col-md-4 col-lg-2">
+              <div class="card mx-auto border-0  w-[16rem] md:w-[10rem]"  >
+                <img src="https://images.squarespace-cdn.com/content/v1/572a977a45bf21aba915b8ff/1564210187087-3EJJ9XI8HRS4E63JO6VY/Wooter-Apparel-Custom-Hoodies-3D-Mockup?format=300w"  alt="Product">
+                <div class="card-body">
+                  <h5 class="font-bold text-[11px]">HODDIES</h5>
+                  <p class="text-[10px]"><i >AS LOW AS: </i><b>$29.99/SET</b></p>
+                  <p class="text-[10px]"><i >OR: </i><b>$22.99/BASIC HOODIE</b></p>
+                </div>
+              </div>
+            </div>
+
+                  <!-- Cart 7 -->
+      <div class="col-sm-6 col-md-4 col-lg-2">
+        <div class="card  mx-auto border-0  w-[16rem] md:w-[10rem]"  >
+          <img src="/images/cart images/Wooter-Apparel-Custom-Shirts-3D-Mockup.png"  alt="Product">
+          <div class="card-body">
+            <h5 class="font-bold text-[11px]">SHIRTS</h5>
+            <p class="text-[10px]"><i >AS LOW AS: </i><b>$9.99/SET</b></p>
+            <p class="text-[10px]"><i >OR: </i><b>$12.99/LONG-SLEEVE SHIRT</b></p>
+          </div>
+        </div>
+      </div>
+<!-- Cart 8 -->
+      <div class="col-sm-6 col-md-4 col-lg-2">
+        <div class="card  mx-auto border-0  w-[16rem] md:w-[10rem]"  >
+          <img src="https://images.squarespace-cdn.com/content/v1/572a977a45bf21aba915b8ff/1581958042008-P4BVOYKSQSR2O93SZCEM/Wooter-Apparel-Custom-Shooting-Shirts-3D-Mockup?format=300w"  alt="Product">
+          <div class="card-body">
+            <h5 class="font-bold text-[11px]">SHOOTING SHIRTS</h5>
+            <p class="text-[10px]"><i >AS LOW AS: </i><b>$12.99/Shirt</b></p>
+            <p class="text-[10px]"><i >OR: </i><b>14.99/Hooded Shirt</b></p>
+          </div>
+        </div>
+      </div>
+<!-- Cart 9-->
+      <div class="col-sm-6 col-md-4 col-lg-2">
+        <div class="card  mx-auto border-0  w-[16rem] md:w-[10rem]"  >
+          <img src="https://images.squarespace-cdn.com/content/v1/572a977a45bf21aba915b8ff/1564210164698-714BWFJ2XCRHANWXLJVD/Wooter-Apparel-Custom-Tracksuits-Warmups-3D-Mockup?format=300w"  alt="Product">
+          <div class="card-body">
+            <h5 class="font-bold text-[11px]">TRACKSUITS/WARMUPS</h5>
+            <p class="text-[10px]"><i >AS LOW AS: </i><b>$54.99/SET</b></p>
+            <p class="text-[10px]"><i >OR: </i><b>$29.99/Jacket</b></p>
+          </div>
+        </div>
+      </div>
+
+<!-- Cart 10 -->
+      <div class="col-sm-6 col-md-4 col-lg-2">
+        <div class="card  mx-auto border-0  w-[16rem] md:w-[10rem]"  >
+          <img src="/images/cart images/red1.png"  alt="Product">
+          <div class="card-body">
+            <h5 class="font-bold text-[11px]">LACROSSE</h5>
+            <p class="text-[10px]"><i >AS LOW AS: </i><b> $39.99/SET </b></p>
+            <p class="text-[10px]"><i >OR: </i><b>$24.99/JERSEY</b></p>
+          </div>
+        </div>
+      </div>
+<!-- Cart 11 -->
+      <div class="col-sm-6 col-md-4 col-lg-2">
+        <div class="card  mx-auto border-0  w-[16rem] md:w-[10rem]"  >
+          <img src="https://images.squarespace-cdn.com/content/v1/572a977a45bf21aba915b8ff/1562269735301-U3LMHEWAZMSQY36NOME4/Wooter-Apparel-Custom-Soccer-Uniforms-3D-Mockup"  alt="Product">
+          <div class="card-body">
+            <h5 class="font-bold text-[11px]">SOCCER</h5>
+            <p class="text-[10px]"><i >AS LOW AS: </i><b>$27.99/SET </b></p>
+            <p class="text-[10px]"><i >OR: </i><b>$13.99/JERSEY</b></p>
+          </div>
+        </div>
+      </div>
+<!-- Cart 12 -->
+      <div class="col-sm-6 col-md-4 col-lg-2">
+        <div class="card  mx-auto border-0  w-[16rem] md:w-[10rem]"  >
+          <img src="https://images.squarespace-cdn.com/content/v1/572a977a45bf21aba915b8ff/1562269605146-XWSTOWA05JOHSNRNMIT1/Wooter-Apparel-Custom-Softball-Uniforms-3D-Mockup?format=100w"  alt="Product">
+          <div class="card-body">
+            <h5 class="font-bold text-[11px]">SOFTBALL</h5>
+            <p class="text-[10px]"><i >AS LOW AS: </i><b>$49.99/SET </b></p>
+            <p class="text-[10px]"><i >OR: </i><b> $24.99/JERSEY</b></p>
+          </div>
+        </div>
+      </div>
+    
+      
+    </div>
+   <a href="custom_team_uniform.html"><button class="py-2 px-4 border-2 border-red-600 text-red-500 rounded-5 block mx-auto my-4 hover:bg-red-500 hover:text-white">VIEW ALL</button></a>
+    <hr>
+  </div>
+  
+
+</div>
+<!-- ---------CARTS 1----------- -->
+
+
+<div class="my-3 ">
+  <div class="text-center">
+    <h2 class="text-gray-700 font-bold">Wooter Apparel Platform just released!  </h2>
+    <p>A self-serve apparel platform where everything can be done yourself, anytime, and no minimums!</p>
+    <button class="py-3 px-4 border-2 border-red-600 text-red-500 rounded-5 block mx-auto my-4 hover:bg-red-500 hover:text-white">VIEW THE WOOTER APPAREL PLATFORM</button>
+  </div>
+  <div class="w-[84%] mx-auto">
+    <hr class="py-4">
+    <img src="https://images.squarespace-cdn.com/content/v1/572a977a45bf21aba915b8ff/1475865812544-B1JCCXEFVH4RXG9045A5/Wooter-Apparel-Press-In-The-News?format=500w" alt="" class="w-full">
+   <br>
+   <br>
+   <hr>
+  </div>
+  
+</div>
+
+
+
+<!-- ---------CARTS 2----------- -->
+<div class="w-[80%] mx-auto">
+  
+
+  <div class="container py-5">
+    <div class="row g-4">
+      
+      <!-- Cart 1 -->
+      <div class="col-sm-6 col-md-4 col-lg-2">
+        <div class="card mx-auto border-0  w-[16rem] md:w-[10rem]">
+          <img src="https://images.squarespace-cdn.com/content/v1/572a977a45bf21aba915b8ff/1562269923201-321EO2W6OK6I9LCI15OX/Wooter-Apparel-Custom-Cheerleading-Uniforms-3D-Mockup?format=300w" alt="Product">
+          <div class="card-body">
+            <h5 class="font-bold text-[11px]">CHEERLEADING</h5>
+            <p class="text-[10px]"><i >AS LOW AS: </i><b> $27.99/SET </b></p>
+            <p class="text-[10px]"><i >OR: </i><b>$14.99/Top or Bottom</b></p>
+          </div>
+        </div>
+      </div>
+  
+         <!-- Cart 2 -->
+         <div class="col-sm-6 col-md-4 col-lg-2">
+          <div class="card mx-auto border-0  w-[16rem] md:w-[10rem]" >
+            <img src="https://images.squarespace-cdn.com/content/v1/572a977a45bf21aba915b8ff/1562269963793-YYD5Y2D8VMMYOW3P3ZBR/Wooter-Apparel-Custom-Hockey-Jerseys-Uniform-3D-Mockup?format=300w"  alt="Product">
+            <div class="card-body">
+              <h5 class="font-bold text-[11px]">HOCKEY</h5>
+              <p class="text-[10px]"><i >AS LOW AS: </i><b>$74.99/SET</b></p>
+              <p class="text-[10px]"><i >OR: </i><b>$34.99/JERSEY</b></p>
+            </div>
+          </div>
+        </div>
+
+           <!-- Cart 3 -->
+      <div class="col-sm-6 col-md-4 col-lg-2">
+        <div class="card mx-auto border-0  w-[16rem] md:w-[10rem]"  >
+          <img src="https://images.squarespace-cdn.com/content/v1/572a977a45bf21aba915b8ff/1564210271536-20BGBEBQ3GK63GFJB6IT/Wooter-Apparel-Custom-Wrestling-Uniforms-3D-Mockup?format=100w"  alt="Product">
+          <div class="card-body">
+            <h5 class="font-bold text-[11px]">WRESTLING</h5>
+            <p class="text-[10px]"><i >AS LOW AS: </i><b>$22.99/Singlet</b></p>
+            
+          </div>
+        </div>
+      </div>
+
+         <!-- Cart 4 -->
+         <div class="col-sm-6 col-md-4 col-lg-2 ">
+          <div class="card  mx-auto border-0  w-[16rem] md:w-[10rem]"  >
+            <img src="https://images.squarespace-cdn.com/content/v1/572a977a45bf21aba915b8ff/1562270029418-V9UEI575M6C52B34MUKF/Wooter-Apparel-Custom-Rugby-Uniforms-3D-Mockup?format=1000w"  alt="Product">
+            <div class="card-body">
+              <h5 class="font-bold text-[11px]">RUGBY</h5>
+              <p class="text-[10px]"><i >AS LOW AS: </i><b>$34.99/SET </b></p>
+              <p class="text-[10px]"><i >OR: </i><b> $19.99/JERSEY</b></p>
+            </div>
+          </div>
+        </div>
+
+              <!-- Cart 5 -->
+      <div class="col-sm-6 col-md-4 col-lg-2 ">
+        <div class="card  mx-auto border-0  w-[16rem] md:w-[10rem]"  >
+          <img src="https://images.squarespace-cdn.com/content/v1/572a977a45bf21aba915b8ff/1562270054301-NLU4YJLY332JWN3BARMU/Wooter-Apparel-Custom-Volleyball-Uniforms-3D-Mockup?format=100w"  alt="Product">
+          <div class="card-body">
+            <h5 class="font-bold text-[11px]">VOLLEYBALL</h5>
+            <p class="text-[10px]"><i >AS LOW AS: </i><b>$27.99/SET </b></p>
+            <p class="text-[10px]"><i >OR: </i><b>$14.99/JERSEY</b></p>
+          </div>
+        </div>
+      </div>
+
+            <!-- Cart 6 -->
+            <div class="col-sm-6 col-md-4 col-lg-2">
+              <div class="card mx-auto border-0  w-[16rem] md:w-[10rem]"  >
+                <img src="https://images.squarespace-cdn.com/content/v1/572a977a45bf21aba915b8ff/1564869062807-8097JTISB2XDAPOOZ1SR/Wooter-Apparel-Custom-Tennis-Uniform-3D-Mockup?format=300w"  alt="Product">
+                <div class="card-body">
+                  <h5 class="font-bold text-[11px]">TENNIS</h5>
+                  <p class="text-[10px]"><i >AS LOW AS: </i><b>$39.99/SET </b></p>
+                  <p class="text-[10px]"><i >OR: </i><b> $12.99/Shirt</b></p>
+                </div>
+              </div>
+            </div>
+
+                  <!-- Cart 7 -->
+      <div class="col-sm-6 col-md-4 col-lg-2">
+        <div class="card  mx-auto border-0  w-[16rem] md:w-[10rem]"  >
+          <img src="https://images.squarespace-cdn.com/content/v1/572a977a45bf21aba915b8ff/1564869102864-TEJRUJ6UQNPCHOCAMKSY/Wooter-Apparel-Custom-MMA-Short-3D-Mockup?format=500w"  alt="Product">
+          <div class="card-body">
+            <h5 class="font-bold text-[11px]">MMA</h5>
+            <p class="text-[10px]"><i >AS LOW AS: </i><b>$54.99/SET </b></p>
+            <p class="text-[10px]"><i >OR: </i><b>$29.99/Rash Guard</b></p>
+          </div>
+        </div>
+      </div>
+<!-- Cart 8 -->
+      <div class="col-sm-6 col-md-4 col-lg-2">
+        <div class="card  mx-auto border-0  w-[16rem] md:w-[10rem]"  >
+          <img src="https://images.squarespace-cdn.com/content/v1/572a977a45bf21aba915b8ff/1564210330708-BS85MB9A341FEDNL5A49/Wooter-Apparel-Custom-Polo-Shirts-3D-Mockup?format=500w"  alt="Product">
+          <div class="card-body">
+            <h5 class="font-bold text-[11px]">POLOS</h5>
+            <p class="text-[10px]"><i >AS LOW AS: </i><b>$14.99/Premium </b></p>
+            <p class="text-[10px]"><i >OR: </i><b>$9.99/Basic Polo</b></p>
+          </div>
+        </div>
+      </div>
+<!-- Cart 9-->
+      <div class="col-sm-6 col-md-4 col-lg-2">
+        <div class="card  mx-auto border-0  w-[16rem] md:w-[10rem]"  >
+          <img src="https://images.squarespace-cdn.com/content/v1/572a977a45bf21aba915b8ff/1564210433232-62JEJOO2H9H7KSW7QCGZ/Wooter-Apparel-Custom-Apparel-Inquiry-3D-Mockup?format=500w"  alt="Product">
+          <div class="card-body">
+            <h5 class="font-bold text-[11px]">CUSTOM INQUIRY</h5>
+            <p class="text-[10px]"><b>Don't See what you're looking for? Contact us!</b></p>
+          </div>
+        </div>
+      </div>
+
+<!-- Cart 10 -->
+      <div class="col-sm-6 col-md-4 col-lg-2">
+        <div class="card  mx-auto border-0  w-[16rem] md:w-[10rem]"  >
+          <img src="https://images.squarespace-cdn.com/content/v1/572a977a45bf21aba915b8ff/1564210370065-MCGH2ZUDQ1RL73FGIUT2/Wooter-Apparel-Custom-Pants-3D-Mockup?format=750w"  alt="Product">
+          <div class="card-body">
+            <h5 class="font-bold text-[11px]">PANTS</h5>
+            <p class="text-[10px]"><i >AS LOW AS: </i><b> $27.99/PREMIUM </b></p>
+            <p class="text-[10px]"><i >OR: </i><b>$22.99/BASIC Pants</b></p>
+          </div>
+        </div>
+      </div>
+<!-- Cart 11 -->
+      <div class="col-sm-6 col-md-4 col-lg-2">
+        <div class="card  mx-auto border-0  w-[16rem] md:w-[10rem]"  >
+          <img src="https://images.squarespace-cdn.com/content/v1/572a977a45bf21aba915b8ff/1564210398555-YL7H1195374VVI7TE9VA/Wooter-Apparel-Custom-Sports-Socks-3D-Mockup?format=500w"  alt="Product">
+          <div class="card-body">
+            <h5 class="font-bold text-[11px]">SOCKS</h5>
+            <p class="text-[10px]"><i >AS LOW AS: </i><b> $3.99/Athletic </b></p>
+            <p class="text-[10px]"><i >OR: </i><b>$3.49/Short Socks</b></p>
+          </div>
+        </div>
+      </div>
+<!-- Cart 12 -->
+      <div class="col-sm-6 col-md-4 col-lg-2">
+        <div class="card  mx-auto border-0  w-[16rem] md:w-[10rem]"  >
+          <img src="https://images.squarespace-cdn.com/content/v1/572a977a45bf21aba915b8ff/1564210416376-PXMT8HANFL46CK4MHTTX/Wooter-Apparel-Custom-Hats-Caps-3D-Mockup?format=500w"  alt="Product">
+          <div class="card-body">
+            <h5 class="font-bold text-[11px]">CAPS</h5>
+            <p class="text-[10px]"><i >AS LOW AS: </i><b> $9.99/PREMIUM </b></p>
+            <p class="text-[10px]"><i >OR: </i><b>$7.99/BASIC CAP</b></p>
+          </div>
+        </div>
+      </div>
+    
+      
+    </div>
+    <div >
+    <button class="py-3 px-4  text-red-500 rounded-5 block mx-auto my-4 bg-red-500 hover:bg-red-600 text-white">MAKE YOUR OWN CUSTOM UNIFORM</button>
+    <strong class="block text-center pb-3">Call us now: (347) 850-2720</strong>
+    <em class="block text-center">Pick a package deal to start and save a TON of money on your uniform order!</em>
+  </div>
+  </div>
+  
+
+</div>
+<!-- ---------CARTS 2----------- -->
+
+
+
+<!-- -------------SERVICES------------- -->
+<div id="myCarousel" class="carousel slide md:w-[84%] w-full mx-auto mb-5" data-bs-ride="carousel" data-bs-interval="3000">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://images.squarespace-cdn.com/content/v1/572a977a45bf21aba915b8ff/1568422138538-6JXCFE0Q109KHGK8W2II/BASEBALL+%281%29.png?format=2500w" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://images.squarespace-cdn.com/content/v1/572a977a45bf21aba915b8ff/1568422142042-T0PRBK1IGVGQBQI7FWGX/FOOTBALL+%283%29.png?format=2500w" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://images.squarespace-cdn.com/content/v1/572a977a45bf21aba915b8ff/1620147853896-NKR0KDNHPT58U170LVEY/SOCCER%2B%281%29-min.png?format=2500w" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://images.squarespace-cdn.com/content/v1/572a977a45bf21aba915b8ff/1568422143663-XQ8LLH0CW3NF9M9XBNB6/VOLLEYBALL+%281%29.png?format=2500w" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://images.squarespace-cdn.com/content/v1/572a977a45bf21aba915b8ff/1620147834632-32D2WGAPUQLNZ4NOPKDX/BASKETBALL%2B%282%29-min.png?format=2500w" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
+<hr class="w-[84%] mx-auto mb-10">
+<!-- -------------SERVICES------------- -->
+
+
+
+<p class="text-2xl text-black text-center font-medium mb-3">Trusted By The World's Greatest 🤝</p>
+<div class="container mx-auto w-[84%] grid grid-cols-3 gap-1">
+  <div class="card border-0 aspect-[3/3]">
+    <img class="w-full h-full object-cover" src="https://cdn-yotpo-images-production.yotpo.com/instagram/73/17842982641532773/standard_resolution.jpg" alt="Product">
+  </div>
+
+  <div class="card border-0  aspect-[3/3]">
+    <img class="w-full h-full object-cover" src="https://cdn-yotpo-images-production.yotpo.com/instagram/97/17977150261226697/medium.jpg" alt="Product">
+  </div>
+
+  <div class="card border-0  aspect-[3/3]">
+    <img class="w-full h-full object-cover" src="https://cdn-yotpo-images-production.yotpo.com/instagram/8/18006410833155808/medium.jpg" alt="Product">
+  </div>
+
+  <div class="card border-0  aspect-[3/3]">
+    <img class="w-full h-full object-cover" src="https://cdn-yotpo-images-production.yotpo.com/instagram/97/17958444742175397/medium.jpg" alt="Product">
+  </div>
+
+  <div class="card border-0  aspect-[3/3]">
+    <img class="w-full h-full object-cover" src="https://cdn-yotpo-images-production.yotpo.com/instagram/16/18045240607161616/medium.jpg" alt="Product">
+  </div>
+
+  <div class="card border-0  aspect-[3/3]">
+    <img class="w-full h-full object-cover" src="https://cdn-yotpo-images-production.yotpo.com/instagram/26/17889526108349426/medium.jpg" alt="Product">
+  </div>
+
+  <div class="card border-0  aspect-[3/3]">
+    <img class="w-full h-full object-cover" src="https://cdn-yotpo-images-production.yotpo.com/instagram/45/18054924196112445/medium.jpg" alt="Product">
+  </div>
+
+  <div class="card border-0  aspect-[3/3]">
+    <img class="w-full h-full object-cover" src="https://cdn-yotpo-images-production.yotpo.com/instagram/3/17998584160219603/medium.jpg" alt="Product">
+  </div>
+
+  <div class="card border-0  aspect-[3/3]">
+    <img class="w-full h-full object-cover" src="https://cdn-yotpo-images-production.yotpo.com/instagram/21/18012648325183421/medium.jpg" alt="Product">
+  </div>
+
+  <div class="card border-0  aspect-[3/3]">
+    <img class="w-full h-full object-cover" src="https://cdn-yotpo-images-production.yotpo.com/instagram/52/17925826321278052/medium.jpg" alt="Product">
+  </div>
+
+  <div class="card border-0  aspect-[3/3]">
+    <img class="w-full h-full object-cover" src="https://cdn-yotpo-images-production.yotpo.com/instagram/37/17953618351241937/medium.jpg" alt="Product">
+  </div>
+
+  <div class="card border-0  aspect-[3/3]">
+    <img class="w-full h-full object-cover" src="https://cdn-yotpo-images-production.yotpo.com/instagram/17/18000436228134417/medium.jpg" alt="Product">
+  </div>
+
+  <div class="card border-0  aspect-[3/3]">
+    <img class="w-full h-full object-cover" src="https://cdn-yotpo-images-production.yotpo.com/instagram/85/17985985219171785/medium.jpg" alt="Product">
+  </div>
+
+  <div class="card border-0  aspect-[3/3]">
+    <img class="w-full h-full object-cover" src="https://cdn-yotpo-images-production.yotpo.com/instagram/39/18008750311098739/medium.jpg" alt="Product">
+  </div>
+
+  <div class="card border-0  aspect-[3/3]">
+    <img class="w-full h-full object-cover" src="https://cdn-yotpo-images-production.yotpo.com/instagram/90/18020558971033790/medium.jpg" alt="Product">
+  </div>
+
+  <div class="card border-0  aspect-[3/3]">
+    <img class="w-full h-full object-cover" src="https://cdn-yotpo-images-production.yotpo.com/instagram/14/17874520999288814/medium.jpg" alt="Product">
+  </div>
+
+  <div class="card border-0  aspect-[3/3]">
+    <img class="w-full h-full object-cover" src="https://cdn-yotpo-images-production.yotpo.com/instagram/13/17972559652091313/medium.jpg" alt="Product">
+  </div>
+
+  <div class="card border-0  aspect-[3/3]">
+    <img class="w-full h-full object-cover" src="https://cdn-yotpo-images-production.yotpo.com/instagram/57/17980238422008157/medium.jpg" alt="Product">
+  </div>
+  <!-- Repeat for other cards -->
+</div>
+
+
+
+<br><br><br>
+<div class="container w-[84%] grid grid-cols-3 gap-1">
+  <div class="card border-0 aspect-[3/3]">
+    <img class="w-full h-full object-cover" src="https://cdn-yotpo-images-production.yotpo.com/instagram/37/17864167702394437/medium.jpg" alt="Product">
+  </div>
+
+  <div class="card border-0 aspect-[3/3]">
+    <img class="w-full h-full object-cover" src="https://cdn-yotpo-images-production.yotpo.com/instagram/61/17868687262366561/medium.jpg" alt="Product">
+  </div>
+
+  <div class="card border-0 aspect-[3/3]">
+    <img class="w-full h-full object-cover" src="https://cdn-yotpo-images-production.yotpo.com/instagram/39/18024565234179439/medium.jpg" alt="Product">
+  </div>
+  
+  <div class="card border-0 aspect-[3/3]">
+    <img class="w-full h-full object-cover" src="https://cdn-yotpo-images-production.yotpo.com/instagram/34/18035968186073834/medium.jpg" alt="Product">
+  </div>
+
+  <div class="card border-0 aspect-[3/3]">
+    <img class="w-full h-full object-cover" src="https://cdn-yotpo-images-production.yotpo.com/instagram/16/17935566637265516/medium.jpg" alt="Product">
+  </div>
+
+  <div class="card border-0 aspect-[3/3]">
+    <img class="w-full h-full object-cover" src="https://cdn-yotpo-images-production.yotpo.com/instagram/31/17990104063032531/medium.jpg" alt="Product">
+  </div>
+</div>
+
+
+<br><br><br>
+<div class="container w-[84%] grid grid-cols-3 gap-1">
+  <div class="card border-0 aspect-[3/3]">
+    <img class="w-full h-full object-cover" src="https://cdn-yotpo-images-production.yotpo.com/instagram/44/17962251745178344/medium.xx&oh=09133c8fb08f7ea229410069317c02ee&oe=5C404C7A" alt="Product">
+  </div>
+
+  <div class="card border-0 aspect-[3/3]">
+    <img class="w-full h-full object-cover" src="https://cdn-yotpo-images-production.yotpo.com/instagram/31/17959938106092231/medium.xx&oh=32e3338757614d7e8a055dc2e125da96&oe=5C435B3A" alt="Product">
+  </div>
+
+  <div class="card border-0 aspect-[3/3]">
+    <img class="w-full h-full object-cover" src="https://cdn-yotpo-images-production.yotpo.com/instagram/20/17952110035192520/medium.xx&oh=f8800ac36bc1157a966e563899df5c1d&oe=5C3EEC00" alt="Product">
+  </div>
+  
+  <div class="card border-0 aspect-[3/3]">
+    <img class="w-full h-full object-cover" src="https://cdn-yotpo-images-production.yotpo.com/Account/229450/62029226/medium.jpg?1541206832" alt="Product">
+  </div>
+
+  <div class="card border-0 aspect-[3/3]">
+    <img class="w-full h-full object-cover" src="https://cdn-yotpo-images-production.yotpo.com/instagram/3/17928244240153803/medium.xx&oh=78a48e4bd50e743aa6f001ac66089f80&oe=5C44BD5D" alt="Product">
+  </div>
+
+  <div class="card border-0 aspect-[3/3]">
+    <img class="w-full h-full object-cover" src="https://cdn-yotpo-images-production.yotpo.com/instagram/44/17878874119066644/medium.xx&oh=cefd5f3c301f84048fa07a878e34df7a&oe=5C49D67C" alt="Product">
+  </div>
+</div>
+
+
+<br><br><br>
+<div class="container w-[84%] grid grid-cols-3 gap-1">
+  <div class="card border-0aspect-[3/3]">
+    <img class="w-full h-full object-cover" src="https://cdn-yotpo-images-production.yotpo.com/Review/72525596/61940285/medium.jpg?1541092238" alt="Product">
+  </div>
+
+  <div class="card border-0 aspect-[3/3]">
+    <img class="w-full h-full object-cover" src="https://cdn-yotpo-images-production.yotpo.com/Account/229450/62030069/medium.jpg?1541207485" alt="Product">
+  </div>
+
+  <div class="card border-0 aspect-[3/3]">
+    <img class="w-full h-full object-cover" src="https://cdn-yotpo-images-production.yotpo.com/Account/229450/62029972/medium.jpg?1541207409" alt="Product">
+  </div>
+  
+  <div class="card border-0 aspect-[3/3]">
+    <img class="w-full h-full object-cover" src="https://cdn-yotpo-images-production.yotpo.com/Account/229450/62025873/medium.jpg?1541203617" alt="Product">
+  </div>
+
+  <div class="card border-0 aspect-[3/3]">
+    <img class="w-full h-full object-cover" src="https://cdn-yotpo-images-production.yotpo.com/Account/229450/62969446/medium.jpg?1541803318" alt="Product">
+  </div>
+
+  <div class="card border-0 aspect-[3/3]">
+    <img class="w-full h-full object-cover" src="https://cdn-yotpo-images-production.yotpo.com/Account/229450/62969396/medium.jpg?1541803068" alt="Product">
+  </div>
+</div>
+
+
+<!-- ---------Swipper Carosal---------- -->
+<div class="container w-[84%] mx-auto py-4">
+   
+<div class="swiper mySwiper relative">
+ 
+  <div class="flex items-center justify-between w-full mt-5">
+    <div>
+      <p class="text-lg font-semibold">Wooter Apparel Blog</p>
+    </div>
+    
+    <div class="flex items-center gap-2">
+      <div class="swiper-button-prev !static !text-black w-8 h-8 flex items-center justify-center"></div>
+      <div class="swiper-button-next !static !text-black w-8 h-8 flex items-center justify-center"></div>
+    </div>
+  </div>
+  
+  <div class="swiper-wrapper my-5">
+    <!-- 10 cards -->
+    <div class="swiper-slide">
+      <img src="https://images.squarespace-cdn.com/content/v1/572a977a45bf21aba915b8ff/1731653840335-ILZ0AQBI8TPMSQKEXHQL/Screenshot+2024-11-13+at+3.17.20%E2%80%AFPM.png?format=1500w" class="w-full h-48 object-cover rounded-md">
+      <a href="/blog/2024/11/15/wooter-order-platform-release-notes-november-11-updates-amp-improvements" class="text-red-500">Wooter Order Platform Release Notes | November 11 Updates &amp; Improvements</a>
+    </div>
+    <div class="swiper-slide">
+      <img src="https://images.squarespace-cdn.com/content/v1/572a977a45bf21aba915b8ff/1730683290501-1V87ZN326MMZODSJQFKU/Brunson+League+-+NBA2K+-+Photo+2+copy.jpg?format=1500w" class="w-full h-48 object-cover rounded-md">
+      <a href="https://team.wooter.com/throwback-to-2020-wooter-apparels-brunson-league-uniform-shines-in-nba2k/" class="text-red-500">Throwback to 2020: Wooter Apparel’s Brunson League Uniform Shines in NBA2K</a>
+    </div>
+    <div class="swiper-slide">
+      <img src="https://images.squarespace-cdn.com/content/v1/572a977a45bf21aba915b8ff/1699076255806-IPPYN2NN22Y92RR0WBEI/IMG_9785.jpg?format=1500w" class="w-full h-48 object-cover rounded-md">
+      <a href="/blog/2023/11/4/wooter-apparels-debut-at-ab-show-2023-a-game-changer-in-custom-sportswea" class="summary-title-link" tabindex="0">Wooter Apparel's Debut at AB Show 2023: A Game-Changer in Custom Sportswear</a>
+    </div>
+    <div class="swiper-slide">
+      <img src="https://images.squarespace-cdn.com/content/v1/572a977a45bf21aba915b8ff/1652462036507-444R1SEJ3C11GVB76TRK/B4p+5.jpeg?format=1000w" class="w-full h-48 object-cover rounded-md">
+      <a href="/blog/2023/6/1/how-to-care-for-your-custom-sportswear-and-extend-its-lifespan" class="summary-title-link" tabindex="0">How to Care for Your Custom Sportswear and Extend its Lifespan</a>
+    </div>
+    <div class="swiper-slide">
+      <img src="https://images.squarespace-cdn.com/content/v1/572a977a45bf21aba915b8ff/1622112592603-UB9Q0QXT0MK4O8MJJ7PZ/IMG_1523.jpg?format=1000w" class="w-full h-48 object-cover rounded-md">
+      <a href="/blog/wooter-apparels-inspiring-update-making-a-difference-in-youth-sports-programs" class="summary-title-link" tabindex="0">Wooter Increases Sponsorship Pledge for Youth Sports Programs, Now Over Halfway Completed</a>
+    </div>
+    <div class="swiper-slide">
+      <img src="https://images.squarespace-cdn.com/content/v1/572a977a45bf21aba915b8ff/1684958260631-W3Q5O0MB95TK4JB1W16L/download.png?format=2500w" class="w-full h-48 object-cover rounded-md">
+      <a href="/blog/wooter-apparels-inspiring-update-making-a-difference-in-youth-sports-programs" class="summary-title-link" tabindex="0">Wooter Increases Sponsorship Pledge for Youth Sports Programs, Now Over Halfway Completed</a>
+    </div>
+    <div class="swiper-slide">
+      <img src="https://images.squarespace-cdn.com/content/v1/572a977a45bf21aba915b8ff/1669684311043-12KM12NW5G11GSTVYQ60/09_wooter%2Bapparel%2Bheader.jpg?format=2500w" class="w-full h-48 object-cover rounded-md">
+      <a href="/blog/2023/5/24/introducing-flexible-payment-options-for-custom-sportswear-wooter-apparel-now-accepts-affirm" class="summary-title-link" tabindex="0">Introducing Flexible Payment Options for Custom Sportswear: Wooter Apparel Now Accepts Affirm</a>
+    </div>
+    <div class="swiper-slide">
+      <img src="https://images.squarespace-cdn.com/content/v1/572a977a45bf21aba915b8ff/1681317084083-MWJSP8SVZEU78URHPKVQ/Screen+Shot+2023-04-12+at+5.30.03+PM.png?format=1000w" class="w-full h-48 object-cover rounded-md">
+      <a href="/blog/2023/6/1/choosing-the-right-sportswear-manufacturer-for-your-team-a-guide" class="summary-title-link" tabindex="0">Choosing the Right Sportswear Manufacturer for Your Team: A Guide</a>
+    </div>
+    <div class="swiper-slide">
+      <img src="https://images.squarespace-cdn.com/content/v1/572a977a45bf21aba915b8ff/cf4f09f3-f33e-4cc1-b1ce-5636aa552a84/Screen+Shot+2022-02-08+at+8.17.45+PM.png?format=1000w" class="w-full h-48 object-cover rounded-md">
+      <a href="/blog/2023/4/12/basketball-beauties-league-founder-jude-thomas-stars-as-marques-haynes-in-sweetwater-movie" class="summary-title-link" tabindex="0">Basketball Beauties League Founder, Jude Thomas, Stars As Marques Haynes In  “Sweetwater” Movie</a>
+    </div>
+    <div class="swiper-slide">
+      <img src="https://images.squarespace-cdn.com/content/v1/572a977a45bf21aba915b8ff/7f1ea542-9958-4e2a-83b6-43a425d61b8b/standard_resolution-2-min.jpg?format=1000w" class="w-full h-48 object-cover rounded-md">
+      <a href="/blog/2023/6/1/why-custom-team-uniforms-boost-performance-and-morale" class="summary-title-link" tabindex="0">Why Custom Team Uniforms Boost Performance and Morale</a>
+    </div>
+    <!-- Repeat for 10 cards -->
+    <!-- You can repeat this 10 times or dynamically with JS -->
+  </div>
+
+ 
+</div>
+</div>
+<!-- ---------Swipper Carosal---------- -->
+
+
+
+
+
+
+
+<hr class="w-[84%] mx-auto my-2 text-gray-700">
+
+
+<div class="container w-84% mx-auto pt-3">
+  <img class="w-full h-full object-contain" src="/images/wooter-apparel-order-custom-uniforms-online.png" alt="">
+</div>
+
+<br>
+
+<div class="container py-3">
+
+<div class="row">
+
+<div class="col-12 col-md-6 py-1 pr-3">
+  <div class="pb-4">
+    <img class="w-full" src="https://images.squarespace-cdn.com/content/v1/572a977a45bf21aba915b8ff/1559517516545-YTYAVMYWP265I8JPXN4L/wooter-apparel-open-custom-fan-store?format=300w" alt="">
+  </div>
+  <div>
+    <img class="w-full h-[10rem]" src="https://images.squarespace-cdn.com/content/v1/572a977a45bf21aba915b8ff/1559517571143-O4M43GNJ00SKVWYK0R4B/wooter-apparel-schools-non-profit-discount?format=500w" alt="">
+  </div>
+</div>
+<div class="col-12 col-md-6  py-1">
+  <div  class="pb-4">
+    <img class="w-full h-[13rem]" src="https://images.squarespace-cdn.com/content/v1/572a977a45bf21aba915b8ff/1559517546422-XPY0X7THRBZ3RVJOL6KY/wooter-app-basketball-league-management?format=300w" alt="">
+  </div>
+  <div class="pb-1">
+    <img class="w-full h-[6rem]" src="https://images.squarespace-cdn.com/content/v1/572a977a45bf21aba915b8ff/1559517592537-XJZBBUC5TCCP30KYCL2W/breast+cancer+awareness+jerseys+and+uniforms+donation.png?format=500w" alt="">
+  </div>
+</div>
+
+
+</div>
+
+</div>
+
+
+<hr class="w-[84%] mx-auto my-3 text-gray-700">
+
+
+<div class="container w-[w-84%] mx-auto">
+
+  <h2 class="text-center py-2 text-2xl"><strong>Wooter Apparel will bring your ideas to life!</strong></h2>
+  <h3 class="text-center py-2">Our team has the most talented designers in the world. Every inch of our uniforms is fully customizable.</h3>
+<div class="row m-10">
+
+<div class="col-12 col-md-6 lg:pl-[12rem]">
+  <img class="w-full h-[15rem]" src="https://images.squarespace-cdn.com/content/v1/572a977a45bf21aba915b8ff/1504082343735-7C0GENY2K5VJ0FX3COOI/Wooter-Apparel-Free-Uniform-Designs-Internal-Design-Team?format=750w" alt="">
+</div>
+<div class="col-12 col-md-6">
+  <h3>Featured in the News:</h3>
+  <p class="text-red-500"><a href="http://www.ny1.com/nyc/all-boroughs/news/2016/05/26/staten-island-sports-tech-startup-changing-the-game.html" target="_blank">New York 1 News</a>
+    <br>
+    <a href="http://tech.co/wooter-helps-find-local-sports-new-adventures-2015-08" target="_blank">Tech.co</a>
+    <br>
+    <a href="http://thesource.com/2017/10/05/master-p-and-wooter-apparel-turn-heads-to-stone-with-medusa-clothing-line/">The Source</a>
+    <br>
+    <a href="https://www.entrepreneur.com/article/275910" target="_blank">Entrepreneur Magazine</a>
+    <br>
+    <a href="https://www.silive.com/highschoolsports/2019/02/wooter-pledges-25-million-to-youth-sports-programs-around-the-world.html">Staten Island Advance</a></p>
+    <p class="">Wooter is listed as one of the "100 Brilliant Companies" by <em>Entrepreneur Magazine!</em></p>
+</div>
+
+</div>
+</div>
+
+<hr class="w-[84%] mx-auto my-3 text-gray-700">
+
+<footer class="container mx-auto px-4 py-6">
+  <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-4">
+    
+    <!-- Column 1 -->
+    <div>
+      <img src="https://images.squarespace-cdn.com/content/v1/572a977a45bf21aba915b8ff/4a375a7c-8234-4c84-be2c-7bf06450a7e1/Wooter+Logo+Primary?format=1500w" alt="">
+      <div class="flex items-center justify-center gap-8 py-2">
+        <i class="text-2xl bi bi-facebook"></i>
+        <i class="text-2xl bi bi-instagram"></i>
+        <i class="text-2xl bi bi-twitter"></i>
+      </div>
+    </div>
+
+    <!-- Column 2 -->
+    <div class="flex justify-center items-center">
+      <button>
+        <a href="https://wooter.com" target="_blank" class="uppercase text-red-500 border-2 border-red-600 px-4 py-3 rounded-5">
+          Order Now
+        </a>
+      </button>
+    
+    </div>
+
+    <!-- Column 3 -->
+    <div class="flex justify-center items-center">
+      <img src="https://share.trustpilot.com/images/company-rating?locale=en-US&amp;businessUnitId=5d0d19a609d4e90001259bf8" alt="">
+    </div>
+
+    <!-- Column 4 -->
+    <div class="flex justify-center items-center">
+      <img src="https://images.squarespace-cdn.com/content/v1/572a977a45bf21aba915b8ff/1513228411504-ESBQXSGBW0ZO9KSKN9FD/Wooter+Apparel+-+Payment+Methods+-+Custom+Sports+Uniforms" alt="">
+    </div>
+
+    <!-- Column 5 -->
+    <div class="flex flex-col items-center gap-2">
+      <img class="w-40" src="https://images.squarespace-cdn.com/content/v1/572a977a45bf21aba915b8ff/328550f3-6873-4771-b0f5-601193bed07a/Wooter+-+Download+App" alt="">
+      <img class="w-40" src="https://images.squarespace-cdn.com/content/v1/572a977a45bf21aba915b8ff/1579230905183-MSFF8QRRLT73QN0G7PF3/24%2F7+support+and+satisfaction+guarantee+-+Custom+Sports+Uniforms+Best+Prices+%26+Support" alt="">
+    </div>
+
+  </div>
+</footer>
+
+
+
+
+  </body>
+<!-- Script for Hamburger & Dropdowns -->
+<script>
+  function toggleDropdown(id) {
+    const el = document.getElementById(id);
+    el.classList.toggle('hidden');
+  }
+
+  document.getElementById("mobile-toggle").addEventListener("click", () => {
+    document.getElementById("mobile-nav").classList.toggle("hidden");
+  });
+</script>
+
+  <!-- -----swipper js------ -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js"></script>
+  
+<!-- ------------REVIEW CAROSAL--------- -->
+  <script>
+  var swiper = new Swiper(".review-carousel", {
+    slidesPerView: 1, // Default for small screens
+    spaceBetween: 30,
+    loop: true,
+    speed: 800,
+    autoplay: {
+      delay: 3000,
+      disableOnInteraction: false
+    },
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true
+    },
+    breakpoints: {
+      600: {
+        slidesPerView: 2, // Large screens: show 2
+      },
+      1024: {
+        slidesPerView: 3, // Large screens: show 3
+      }
+    }
+  });
+  </script>
+
+<!-- -------LOGOS CAROSOAL------- -->
+<script>
+  var swiper = new Swiper(".logoSwiper", {
+    loop: true,
+    slidesPerView: "auto", // All logos visible
+    spaceBetween: 0,
+    autoplay: {
+      delay: 1500, // Wait time between slides
+      disableOnInteraction: false
+    },
+    speed: 300, // Slide animation time
+    centeredSlides: false,
+    allowTouchMove: false // Optional: disable drag/swipe
+  });
+</script>
+
+<script>
+  var swiper = new Swiper(".mySwiper", {
+    slidesPerView: 2,
+    slidesPerGroup: 2,
+    spaceBetween: 20,
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+    breakpoints: {
+      // When window width is >= 1024px
+      1024: {
+        slidesPerView: 5,
+        slidesPerGroup: 5,
+      },
+    }
+  });
+</script>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+    crossorigin="anonymous"
+  ></script>
+</html>
+ 
