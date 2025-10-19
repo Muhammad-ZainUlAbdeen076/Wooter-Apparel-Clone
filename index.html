@@ -242,114 +242,68 @@
     </div>
   </div>
 
-  <!-- MOBILE MENU -->
-  <div id="mobile-nav" class="hidden sm:hidden px-4 py-3">
-    <!-- Your mobile menu here -->
-    <ul class="flex items-center justify-center flex-col space-y-2 text-gray-700 font-medium text-sm">
-        <!-- Teams Uniform Dropdown -->
-        <li>
-          <button class="w-full flex justify-between items-center px-2 py-2" onclick="toggleDropdown('team-submenu')">
-            Teams Uniform <i class="fa-solid fa-chevron-down text-xs"></i>
-          </button>
-          <ul id="team-submenu" class="pl-4 hidden flex-col space-y-1">
-            <li><a href="/basketball" class="block hover:text-gray-400">Basketball</a></li>
-            <li>  <a href="/product_pages/Baseball.html" class="hover:text-gray-400">Baseball</a></li>
-            <li><a href="/product_pages/Football.html" class="hover:text-gray-400"
-                    >Flag Football</a
-                  ></li>
-             <li> <a href="/product_pages/CheerLeading.html" class="hover:text-gray-400"
-                    >Cheerleading</a
-                  ></li>
+ <!-- MOBILE MENU -->
+<div id="mobile-nav" class="hidden sm:hidden px-4 py-3">
+  <ul class="flex items-center justify-center flex-col space-y-2 text-gray-700 font-medium text-sm">
 
-                  <li>
-                  <a href="/product_pages/cricket.html" class="hover:text-gray-400">Cricket</a></li>
-
-                  <li>
-                  <a href="/product_pages/FieldHockey.html" class="hover:text-gray-400"
-                    >Field Hockey</a
-                  ></li>
-
-                  <li>
-                  
-                  <a href="/product_pages/bowling.html" class="hover:text-gray-400">Bowling</a></li>
-                
-<li> <a href="/product_pages/cycling.html" class="hover:text-gray-400">Cycling</a></li>
-                 
-                  <li>
-                  <a href="/product_pages/Golf.html" class="hover:text-gray-400">Golf</a></li>
-
-                  <li>
-                  <a href="/product_pages/Esports.html" class="hover:text-gray-400">Esports</a>
-</li>
-
-                 
-<li>      <a href="/custom-team-uniforms" class="hover:text-gray-400"></a></li>
-
-          
-
-          </ul>
-        </li>
-
-        <!-- Custom Apparel Dropdown -->
-        <li>
-          <button class="w-full flex justify-between items-center px-2 py-2" onclick="toggleDropdown('apparel-submenu')">
-            Custom Apparel <i class="fa-solid fa-chevron-down text-xs"></i>
-          </button>
-          <ul id="apparel-submenu" class="pl-4 hidden flex-col space-y-1">
-            
-       
-            <li><a href="/product_pages/Bags.html" class="block hover:text-gray-400">Bags</a></li>
-          </ul>
-        </li>
-
- <!-- Company Dropdown -->
-   <li>
-          <button class="w-full flex justify-between items-center px-2 py-2" onclick="toggleDropdown('company-submenu')">
-         Company <i class="fa-solid fa-chevron-down text-xs"></i>
-          </button>
-          <ul id="company-submenu" class="pl-4 hidden flex-col space-y-1">
-          
-            <li><a href="/team" class="hover:text-gray-400">Team</a></li>
-              <li>
-                  <a href="/what-is-wooter" class="hover:text-gray-400"
-                    >What is Wooter?</a
-                  ></li>
-          </ul>
-        </li>
-
-
-
-
-
- <!-- help Dropdown -->
-   <li>
-          <button class="w-full flex justify-between items-center px-2 py-2" onclick="toggleDropdown('help-submenu')">
-         Help <i class="fa-solid fa-chevron-down text-xs"></i>
-          </button>
-          <ul id="help-submenu" class="pl-4 hidden flex-col space-y-1">
-            <li> <a href="/Term_&_condition.html" class="hover:text-gray-400"
-                    >Terms & Conditions</a
-                  ></li>
-                  <li>
-                  <a href="/Privacy_policy.html" class="hover:text-gray-400"
-                    >Privacy Policy</a
-                  ></li>
-           
-          </ul>
-        </li>
-
-
-
-
-
-        <!-- Simple Links -->
-      
-       
-        <li><a href="/pricing" class="block px-2 py-1 hover:text-gray-400">Pricing</a></li>
-        <li><a href="/request" class="block px-2 py-1 hover:text-gray-400">Quote</a></li>
-        <li><a href="tel:3478502720" class="block px-2 py-1 hover:text-gray-400">(347) 850-2720</a></li>
+    <!-- Teams Uniform Dropdown -->
+    <li>
+      <button class="w-full flex gap-2 justify-between items-center px-2 py-2 text-gray-900 font-semibold" onclick="toggleDropdown('team-submenu', this)">
+        Teams Uniform <i class="fa-solid fa-chevron-down text-xs transition-transform duration-300"></i>
+      </button>
+      <ul id="team-submenu" class="hidden flex-col space-y-1 text-center">
+        <li><a href="/product_pages/Baseball.html" class="block text-gray-600 hover:text-gray-900">Baseball</a></li>
+        <li><a href="/product_pages/Football.html" class="block text-gray-600 hover:text-gray-900">Flag Football</a></li>
+        <li><a href="/product_pages/CheerLeading.html" class="block text-gray-600 hover:text-gray-900">Cheerleading</a></li>
+        <li><a href="/product_pages/cricket.html" class="block text-gray-600 hover:text-gray-900">Cricket</a></li>
+        <li><a href="/product_pages/FieldHockey.html" class="block text-gray-600 hover:text-gray-900">Field Hockey</a></li>
+        <li><a href="/product_pages/bowling.html" class="block text-gray-600 hover:text-gray-900">Bowling</a></li>
+        <li><a href="/product_pages/cycling.html" class="block text-gray-600 hover:text-gray-900">Cycling</a></li>
+        <li><a href="/product_pages/Golf.html" class="block text-gray-600 hover:text-gray-900">Golf</a></li>
+        <li><a href="/product_pages/Esports.html" class="block text-gray-600 hover:text-gray-900">Esports</a></li>
+        <li><a href="/custom-team-uniforms" class="block text-gray-600 hover:text-gray-900"></a></li>
       </ul>
-  </div>
+    </li>
+
+    <!-- Custom Apparel Dropdown -->
+    <li>
+      <button class="w-full flex gap-2 justify-center items-center px-2 py-2 text-gray-900 font-semibold" onclick="toggleDropdown('apparel-submenu', this)">
+        Custom Apparel <i class="fa-solid fa-chevron-down text-xs transition-transform duration-300"></i>
+      </button>
+      <ul id="apparel-submenu" class="hidden flex-col space-y-1 text-center">
+        <li><a href="/product_pages/Bags.html" class="block  text-gray-600 hover:text-gray-900">Bags</a></li>
+      </ul>
+    </li>
+
+    <!-- Company Dropdown -->
+    <li>
+      <button class="w-full flex gap-2 justify-center items-center px-2 py-2 text-gray-900 font-semibold" onclick="toggleDropdown('company-submenu', this)">
+        Company <i class="fa-solid fa-chevron-down text-xs transition-transform duration-300"></i>
+      </button>
+      <ul id="company-submenu" class="hidden flex-col text-center">
+        <li><a href="/team" class="block  text-gray-600 hover:text-gray-900">Team</a></li>
+        <li><a href="/what-is-wooter" class="block  text-gray-600 hover:text-gray-900">What is Wooter?</a></li>
+      </ul>
+    </li>
+
+    <!-- Help Dropdown -->
+    <li>
+      <button class="w-full flex gap-2 justify-center items-center px-2 py-2 text-gray-900 font-semibold" onclick="toggleDropdown('help-submenu', this)">
+        Help <i class="fa-solid fa-chevron-down text-xs transition-transform duration-300"></i>
+      </button>
+      <ul id="help-submenu" class="pl-4 hidden flex-col space-y-1 text-center">
+        <li><a href="/Term_&_condition.html" class="block  text-gray-600 hover:text-gray-900">Terms & Conditions</a></li>
+        <li><a href="/Privacy_policy.html" class="block  text-gray-600 hover:text-gray-900">Privacy Policy</a></li>
+      </ul>
+    </li>
+
+    <!-- Simple Links -->
+    <li><a href="/pricing" class="block px-2 py-1  text-gray-900 font-semibold">Pricing</a></li>
+    <li><a href="/request" class="block px-2 py-1  text-gray-900 font-semibold">Quote</a></li>
+    <li><a href="tel:3478502720" class="block px-2 py-1  text-gray-900 font-semibold">(347) 850-2720</a></li>
+
+  </ul>
+</div>
 </nav>
 <!-- ----------NAVBAR------------- -->
 
@@ -443,7 +397,7 @@
 <div class="mb-3 w-[84%] mx-auto">
 <div class="flex items-center justify-between  ">
   <p class="text-[20px] text-black">Real Reviews From Real Customers<b class="text-red-500 pl-3">See All Reviews</b></p>
-  <div class="flex gap-2">
+  <div>
   <img src="/images/illustration-of-a-star-five-yellow-rating-stars-vector.jpg" alt="rating" class="h-[30px]">
   <p>1680 Reviews</p>
 </div> 
@@ -681,6 +635,7 @@
       
       <!-- Cart 1 -->
       <div class="col-sm-6 col-md-4 col-lg-2">
+        <a href="/product_pages/Bags.html">
         <div class="card mx-auto border-0  w-[16rem] md:w-[10rem]">
           <img src="/images/cart images/Wooter-Apparel-Custom-Bags-Backpacks-Duffel-3D-Mockup.png" alt="Product">
           <div class="card-body">
@@ -689,34 +644,14 @@
             <p class="text-[10px]"><i >OR: </i><b>$39.99/BAT BAG</b></p>
           </div>
         </div>
+        </a>
       </div>
   
-         <!-- Cart 2 -->
-         <div class="col-sm-6 col-md-4 col-lg-2">
-          <div class="card mx-auto border-0  w-[16rem] md:w-[10rem]" >
-            <img src="/images/cart images/Wooter-Apparel-Custom-Baseball-Uniforms-3D-Mockup.png"  alt="Product">
-            <div class="card-body">
-              <h5 class="font-bold text-[11px]">BASKETBALL</h5>
-              <p class="text-[10px]"><i >AS LOW AS: </i><b>$49.99/SET</b></p>
-              <p class="text-[10px]"><i >OR: </i><b>$24.99/JERSEY</b></p>
-            </div>
-          </div>
-        </div>
+         
 
-           <!-- Cart 3 -->
-      <div class="col-sm-6 col-md-4 col-lg-2">
-        <div class="card mx-auto border-0  w-[16rem] md:w-[10rem]"  >
-          <img src="/images/cart images/Wooter-Apparel-Custom-Basketball-Uniforms-3D-Mockup.png"  alt="Product">
-          <div class="card-body">
-            <h5 class="font-bold text-[11px]">BASKETBALL</h5>
-            <p class="text-[10px]"><i >AS LOW AS: </i><b>$39.99/SET</b></p>
-            <p class="text-[10px]"><i >OR: </i><b>$19.99/JERSEY</b></p>
-          </div>
-        </div>
-      </div>
-
-         <!-- Cart 4 -->
+         <!-- Cart 2-->
          <div class="col-sm-6 col-md-4 col-lg-2">
+          <a href="/product_pages/bowling.html">
           <div class="card  mx-auto border-0  w-[16rem] md:w-[10rem]"  >
             <img src="/images/cart images/Wooter-Apparel-Custom-Bowling-Shirts-Jerseys-3D-Mockup.png"  alt="Product">
             <div class="card-body">
@@ -725,10 +660,12 @@
               <p class="text-[10px]"><i >OR: </i><b>$24.99/SHIRT</b></p>
             </div>
           </div>
+          </a>
         </div>
 
-              <!-- Cart 5 -->
+              <!-- Cart 3-->
       <div class="col-sm-6 col-md-4 col-lg-2">
+        <a href="/product_pages/Football.html">
         <div class="card  mx-auto border-0  w-[16rem] md:w-[10rem]"  >
           <img src="/images/cart images/Wooter-Apparel-Custom-Football-Uniforms-3D-Mockup (1).png"  alt="Product">
           <div class="card-body">
@@ -737,87 +674,56 @@
             <p class="text-[10px]"><i >OR: </i><b>$34.99/JERSEY</b></p>
           </div>
         </div>
+        </a>
       </div>
 
-            <!-- Cart 6 -->
-            <div class="col-sm-6 col-md-4 col-lg-2">
-              <div class="card mx-auto border-0  w-[16rem] md:w-[10rem]"  >
-                <img src="https://images.squarespace-cdn.com/content/v1/572a977a45bf21aba915b8ff/1564210187087-3EJJ9XI8HRS4E63JO6VY/Wooter-Apparel-Custom-Hoodies-3D-Mockup?format=300w"  alt="Product">
-                <div class="card-body">
-                  <h5 class="font-bold text-[11px]">HODDIES</h5>
-                  <p class="text-[10px]"><i >AS LOW AS: </i><b>$29.99/SET</b></p>
-                  <p class="text-[10px]"><i >OR: </i><b>$22.99/BASIC HOODIE</b></p>
-                </div>
-              </div>
+          
+   <!-- Cart 2 -->
+         <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2">
+          <a href="/product_pages/cycling.html">
+          <div class="card mx-auto border-0  w-[16rem] md:w-[10rem]" >
+            <img src="/images/cart images/Custom+Cycling+Jerseys.jpeg"  alt="Product">
+            <div class="card-body">
+              <h5 class="font-bold text-[11px]">CYCLING</h5>
+              <p class="text-[10px]"><i >AS LOW AS: </i><b>$27.99/JERSEY</b></p>
             </div>
+          </div>
+          </a>
+        </div>
 
-                  <!-- Cart 7 -->
-      <div class="col-sm-6 col-md-4 col-lg-2">
-        <div class="card  mx-auto border-0  w-[16rem] md:w-[10rem]"  >
-          <img src="/images/cart images/Wooter-Apparel-Custom-Shirts-3D-Mockup.png"  alt="Product">
+           <!-- Cart 3 -->
+      <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2">
+        <a href="/product_pages/dart.html">
+        <div class="card mx-auto border-0  w-[16rem] md:w-[10rem]"  >
+          <img src="/images/cart images/Custom+Darts+Shirts,+Darts+Polo+Shirts.jpeg"  alt="Product">
           <div class="card-body">
-            <h5 class="font-bold text-[11px]">SHIRTS</h5>
-            <p class="text-[10px]"><i >AS LOW AS: </i><b>$9.99/SET</b></p>
-            <p class="text-[10px]"><i >OR: </i><b>$12.99/LONG-SLEEVE SHIRT</b></p>
+            <h5 class="font-bold text-[11px]">DARTS</h5>
+            <p class="text-[10px]"><i >AS LOW AS: </i><b>$19.99/SHIRT</b></p>
+            
           </div>
         </div>
-      </div>
-<!-- Cart 8 -->
-      <div class="col-sm-6 col-md-4 col-lg-2">
-        <div class="card  mx-auto border-0  w-[16rem] md:w-[10rem]"  >
-          <img src="https://images.squarespace-cdn.com/content/v1/572a977a45bf21aba915b8ff/1581958042008-P4BVOYKSQSR2O93SZCEM/Wooter-Apparel-Custom-Shooting-Shirts-3D-Mockup?format=300w"  alt="Product">
-          <div class="card-body">
-            <h5 class="font-bold text-[11px]">SHOOTING SHIRTS</h5>
-            <p class="text-[10px]"><i >AS LOW AS: </i><b>$12.99/Shirt</b></p>
-            <p class="text-[10px]"><i >OR: </i><b>14.99/Hooded Shirt</b></p>
-          </div>
-        </div>
-      </div>
-<!-- Cart 9-->
-      <div class="col-sm-6 col-md-4 col-lg-2">
-        <div class="card  mx-auto border-0  w-[16rem] md:w-[10rem]"  >
-          <img src="https://images.squarespace-cdn.com/content/v1/572a977a45bf21aba915b8ff/1564210164698-714BWFJ2XCRHANWXLJVD/Wooter-Apparel-Custom-Tracksuits-Warmups-3D-Mockup?format=300w"  alt="Product">
-          <div class="card-body">
-            <h5 class="font-bold text-[11px]">TRACKSUITS/WARMUPS</h5>
-            <p class="text-[10px]"><i >AS LOW AS: </i><b>$54.99/SET</b></p>
-            <p class="text-[10px]"><i >OR: </i><b>$29.99/Jacket</b></p>
-          </div>
-        </div>
+        </a>
       </div>
 
-<!-- Cart 10 -->
-      <div class="col-sm-6 col-md-4 col-lg-2">
-        <div class="card  mx-auto border-0  w-[16rem] md:w-[10rem]"  >
-          <img src="/images/cart images/red1.png"  alt="Product">
-          <div class="card-body">
-            <h5 class="font-bold text-[11px]">LACROSSE</h5>
-            <p class="text-[10px]"><i >AS LOW AS: </i><b> $39.99/SET </b></p>
-            <p class="text-[10px]"><i >OR: </i><b>$24.99/JERSEY</b></p>
+
+
+        <!-- Cart 4 -->
+         <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2">
+          <a href="/product_pages/Esports.html">
+          <div class="card  mx-auto border-0  w-[16rem] md:w-[10rem]"  >
+            <img src="/images/cart images/Custom+Esports+Jerseys.jpeg"  alt="Product">
+            <div class="card-body">
+              <h5 class="font-bold text-[11px]">ESPORTS</h5>
+              <p class="text-[10px]"><i >AS LOW AS: </i><b>$14.99/SHIRT</b></p>
+              
+            </div>
           </div>
+          </a>
         </div>
-      </div>
-<!-- Cart 11 -->
-      <div class="col-sm-6 col-md-4 col-lg-2">
-        <div class="card  mx-auto border-0  w-[16rem] md:w-[10rem]"  >
-          <img src="https://images.squarespace-cdn.com/content/v1/572a977a45bf21aba915b8ff/1562269735301-U3LMHEWAZMSQY36NOME4/Wooter-Apparel-Custom-Soccer-Uniforms-3D-Mockup"  alt="Product">
-          <div class="card-body">
-            <h5 class="font-bold text-[11px]">SOCCER</h5>
-            <p class="text-[10px]"><i >AS LOW AS: </i><b>$27.99/SET </b></p>
-            <p class="text-[10px]"><i >OR: </i><b>$13.99/JERSEY</b></p>
-          </div>
-        </div>
-      </div>
-<!-- Cart 12 -->
-      <div class="col-sm-6 col-md-4 col-lg-2">
-        <div class="card  mx-auto border-0  w-[16rem] md:w-[10rem]"  >
-          <img src="https://images.squarespace-cdn.com/content/v1/572a977a45bf21aba915b8ff/1562269605146-XWSTOWA05JOHSNRNMIT1/Wooter-Apparel-Custom-Softball-Uniforms-3D-Mockup?format=100w"  alt="Product">
-          <div class="card-body">
-            <h5 class="font-bold text-[11px]">SOFTBALL</h5>
-            <p class="text-[10px]"><i >AS LOW AS: </i><b>$49.99/SET </b></p>
-            <p class="text-[10px]"><i >OR: </i><b> $24.99/JERSEY</b></p>
-          </div>
-        </div>
-      </div>
+
+
+
+
     
       
     </div>
@@ -855,143 +761,94 @@
   <div class="container py-5">
     <div class="row g-4">
       
-      <!-- Cart 1 -->
-      <div class="col-sm-6 col-md-4 col-lg-2">
-        <div class="card mx-auto border-0  w-[16rem] md:w-[10rem]">
-          <img src="https://images.squarespace-cdn.com/content/v1/572a977a45bf21aba915b8ff/1562269923201-321EO2W6OK6I9LCI15OX/Wooter-Apparel-Custom-Cheerleading-Uniforms-3D-Mockup?format=300w" alt="Product">
+                     <!-- Cart 7 -->
+      <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2">
+        <a href="/product_pages/Football.html">
+        <div class="card  mx-auto border-0  w-[16rem] md:w-[10rem]"  >
+          <img src="/images/cart images/Custom+Flag+Football+Uniforms.png"  alt="Product">
           <div class="card-body">
-            <h5 class="font-bold text-[11px]">CHEERLEADING</h5>
-            <p class="text-[10px]"><i >AS LOW AS: </i><b> $27.99/SET </b></p>
+            <h5 class="font-bold text-[11px]">FOOTBALL</h5>
+            <p class="text-[10px]"><i >AS LOW AS: </i><b> $59.99/SET</b></p>
+            <p class="text-[10px]"><i >OR: </i><b>$44.99/JERSEY</b></p>
+          </div>
+        </div>
+        </a>
+      </div>
+<!-- Cart 8 -->
+      <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2">
+      <a href="/product_pages/Golf.html">
+        <div class="card  mx-auto border-0  w-[16rem] md:w-[10rem]"  >
+          <img src="/images/cart images/Custom+Golf+Polos+-+Golf+Shirts.png"  alt="Product">
+          <div class="card-body">
+            <h5 class="font-bold text-[11px]">GOLF</h5>
+            <p class="text-[10px]"><i >AS LOW AS: </i><b>$19.99/SHIRT</b></p>
+            
+          </div>
+          </a>
+        </div>
+        
+      </div>
+
+
+<!-- Cart 9 -->
+      <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2">
+          <a href="/product_pages/CheerLeading.html">
+        <div class="card  mx-auto border-0  w-[16rem] md:w-[10rem]"  >
+          <img src="/images/cart images/Wooter-Apparel-Custom-Cheerleading-Uniforms-3D-Mockup.png"  alt="Product">
+          <div class="card-body">
+            <h5 class="font-bold text-[11px]">CHEER LEADING</h5>
+            <p class="text-[10px]"><i >AS LOW AS: </i><b>$27.99/SET </b></p>
             <p class="text-[10px]"><i >OR: </i><b>$14.99/Top or Bottom</b></p>
           </div>
         </div>
-      </div>
-  
-         <!-- Cart 2 -->
-         <div class="col-sm-6 col-md-4 col-lg-2">
-          <div class="card mx-auto border-0  w-[16rem] md:w-[10rem]" >
-            <img src="https://images.squarespace-cdn.com/content/v1/572a977a45bf21aba915b8ff/1562269963793-YYD5Y2D8VMMYOW3P3ZBR/Wooter-Apparel-Custom-Hockey-Jerseys-Uniform-3D-Mockup?format=300w"  alt="Product">
-            <div class="card-body">
-              <h5 class="font-bold text-[11px]">HOCKEY</h5>
-              <p class="text-[10px]"><i >AS LOW AS: </i><b>$74.99/SET</b></p>
-              <p class="text-[10px]"><i >OR: </i><b>$34.99/JERSEY</b></p>
-            </div>
-          </div>
-        </div>
-
-           <!-- Cart 3 -->
-      <div class="col-sm-6 col-md-4 col-lg-2">
-        <div class="card mx-auto border-0  w-[16rem] md:w-[10rem]"  >
-          <img src="https://images.squarespace-cdn.com/content/v1/572a977a45bf21aba915b8ff/1564210271536-20BGBEBQ3GK63GFJB6IT/Wooter-Apparel-Custom-Wrestling-Uniforms-3D-Mockup?format=100w"  alt="Product">
-          <div class="card-body">
-            <h5 class="font-bold text-[11px]">WRESTLING</h5>
-            <p class="text-[10px]"><i >AS LOW AS: </i><b>$22.99/Singlet</b></p>
-            
-          </div>
-        </div>
+        </a>
       </div>
 
-         <!-- Cart 4 -->
-         <div class="col-sm-6 col-md-4 col-lg-2 ">
-          <div class="card  mx-auto border-0  w-[16rem] md:w-[10rem]"  >
-            <img src="https://images.squarespace-cdn.com/content/v1/572a977a45bf21aba915b8ff/1562270029418-V9UEI575M6C52B34MUKF/Wooter-Apparel-Custom-Rugby-Uniforms-3D-Mockup?format=1000w"  alt="Product">
-            <div class="card-body">
-              <h5 class="font-bold text-[11px]">RUGBY</h5>
-              <p class="text-[10px]"><i >AS LOW AS: </i><b>$34.99/SET </b></p>
-              <p class="text-[10px]"><i >OR: </i><b> $19.99/JERSEY</b></p>
-            </div>
-          </div>
-        </div>
 
-              <!-- Cart 5 -->
-      <div class="col-sm-6 col-md-4 col-lg-2 ">
-        <div class="card  mx-auto border-0  w-[16rem] md:w-[10rem]"  >
-          <img src="https://images.squarespace-cdn.com/content/v1/572a977a45bf21aba915b8ff/1562270054301-NLU4YJLY332JWN3BARMU/Wooter-Apparel-Custom-Volleyball-Uniforms-3D-Mockup?format=100w"  alt="Product">
-          <div class="card-body">
-            <h5 class="font-bold text-[11px]">VOLLEYBALL</h5>
-            <p class="text-[10px]"><i >AS LOW AS: </i><b>$27.99/SET </b></p>
-            <p class="text-[10px]"><i >OR: </i><b>$14.99/JERSEY</b></p>
-          </div>
-        </div>
-      </div>
-
-            <!-- Cart 6 -->
-            <div class="col-sm-6 col-md-4 col-lg-2">
-              <div class="card mx-auto border-0  w-[16rem] md:w-[10rem]"  >
-                <img src="https://images.squarespace-cdn.com/content/v1/572a977a45bf21aba915b8ff/1564869062807-8097JTISB2XDAPOOZ1SR/Wooter-Apparel-Custom-Tennis-Uniform-3D-Mockup?format=300w"  alt="Product">
-                <div class="card-body">
-                  <h5 class="font-bold text-[11px]">TENNIS</h5>
-                  <p class="text-[10px]"><i >AS LOW AS: </i><b>$39.99/SET </b></p>
-                  <p class="text-[10px]"><i >OR: </i><b> $12.99/Shirt</b></p>
-                </div>
-              </div>
-            </div>
-
-                  <!-- Cart 7 -->
-      <div class="col-sm-6 col-md-4 col-lg-2">
-        <div class="card  mx-auto border-0  w-[16rem] md:w-[10rem]"  >
-          <img src="https://images.squarespace-cdn.com/content/v1/572a977a45bf21aba915b8ff/1564869102864-TEJRUJ6UQNPCHOCAMKSY/Wooter-Apparel-Custom-MMA-Short-3D-Mockup?format=500w"  alt="Product">
-          <div class="card-body">
-            <h5 class="font-bold text-[11px]">MMA</h5>
-            <p class="text-[10px]"><i >AS LOW AS: </i><b>$54.99/SET </b></p>
-            <p class="text-[10px]"><i >OR: </i><b>$29.99/Rash Guard</b></p>
-          </div>
-        </div>
-      </div>
-<!-- Cart 8 -->
-      <div class="col-sm-6 col-md-4 col-lg-2">
-        <div class="card  mx-auto border-0  w-[16rem] md:w-[10rem]"  >
-          <img src="https://images.squarespace-cdn.com/content/v1/572a977a45bf21aba915b8ff/1564210330708-BS85MB9A341FEDNL5A49/Wooter-Apparel-Custom-Polo-Shirts-3D-Mockup?format=500w"  alt="Product">
-          <div class="card-body">
-            <h5 class="font-bold text-[11px]">POLOS</h5>
-            <p class="text-[10px]"><i >AS LOW AS: </i><b>$14.99/Premium </b></p>
-            <p class="text-[10px]"><i >OR: </i><b>$9.99/Basic Polo</b></p>
-          </div>
-        </div>
-      </div>
-<!-- Cart 9-->
-      <div class="col-sm-6 col-md-4 col-lg-2">
-        <div class="card  mx-auto border-0  w-[16rem] md:w-[10rem]"  >
-          <img src="https://images.squarespace-cdn.com/content/v1/572a977a45bf21aba915b8ff/1564210433232-62JEJOO2H9H7KSW7QCGZ/Wooter-Apparel-Custom-Apparel-Inquiry-3D-Mockup?format=500w"  alt="Product">
-          <div class="card-body">
-            <h5 class="font-bold text-[11px]">CUSTOM INQUIRY</h5>
-            <p class="text-[10px]"><b>Don't See what you're looking for? Contact us!</b></p>
-          </div>
-        </div>
-      </div>
 
 <!-- Cart 10 -->
-      <div class="col-sm-6 col-md-4 col-lg-2">
+      <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2">
+        <a href="/product_pages/Bags.html">
         <div class="card  mx-auto border-0  w-[16rem] md:w-[10rem]"  >
-          <img src="https://images.squarespace-cdn.com/content/v1/572a977a45bf21aba915b8ff/1564210370065-MCGH2ZUDQ1RL73FGIUT2/Wooter-Apparel-Custom-Pants-3D-Mockup?format=750w"  alt="Product">
+          <img src="/images/cart images/Wooter-Apparel-Custom-Bags-Backpacks-Duffel-3D-Mockup.png"  alt="Product">
           <div class="card-body">
-            <h5 class="font-bold text-[11px]">PANTS</h5>
-            <p class="text-[10px]"><i >AS LOW AS: </i><b> $27.99/PREMIUM </b></p>
-            <p class="text-[10px]"><i >OR: </i><b>$22.99/BASIC Pants</b></p>
+            <h5 class="font-bold text-[11px]">BAGS</h5>
+            <p class="text-[10px]"><i >AS LOW AS: </i><b> $34.99/BackPack </b></p>
+            <p class="text-[10px]"><i >OR: </i><b>$39.99/Bat Bag</b></p>
           </div>
         </div>
+        </a>
       </div>
+
+
 <!-- Cart 11 -->
-      <div class="col-sm-6 col-md-4 col-lg-2">
+      <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2">
+        <a href="/product_pages/Baseball.html">
         <div class="card  mx-auto border-0  w-[16rem] md:w-[10rem]"  >
-          <img src="https://images.squarespace-cdn.com/content/v1/572a977a45bf21aba915b8ff/1564210398555-YL7H1195374VVI7TE9VA/Wooter-Apparel-Custom-Sports-Socks-3D-Mockup?format=500w"  alt="Product">
+          <img src="/images/cart images/Wooter-Apparel-Custom-Baseball-Uniforms-3D-Mockup.png"  alt="Product">
           <div class="card-body">
-            <h5 class="font-bold text-[11px]">SOCKS</h5>
-            <p class="text-[10px]"><i >AS LOW AS: </i><b> $3.99/Athletic </b></p>
-            <p class="text-[10px]"><i >OR: </i><b>$3.49/Short Socks</b></p>
+            <h5 class="font-bold text-[11px]">BASEBALL</h5>
+            <p class="text-[10px]"><i >AS LOW AS: </i><b>$49.99/SET </b></p>
+            <p class="text-[10px]"><i >OR: </i><b>$24.99/JERSEY</b></p>
           </div>
         </div>
+        </a>
       </div>
-<!-- Cart 12 -->
-      <div class="col-sm-6 col-md-4 col-lg-2">
+    
+      
+
+ <!-- Cart 12 -->
+      <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2">
+        <a href="/product_pages/bowling.html">
         <div class="card  mx-auto border-0  w-[16rem] md:w-[10rem]"  >
-          <img src="https://images.squarespace-cdn.com/content/v1/572a977a45bf21aba915b8ff/1564210416376-PXMT8HANFL46CK4MHTTX/Wooter-Apparel-Custom-Hats-Caps-3D-Mockup?format=500w"  alt="Product">
+          <img src="/images/cart images/Wooter-Apparel-Custom-Bowling-Shirts-Jerseys-3D-Mockup (1).png"  alt="Product">
           <div class="card-body">
-            <h5 class="font-bold text-[11px]">CAPS</h5>
-            <p class="text-[10px]"><i >AS LOW AS: </i><b> $9.99/PREMIUM </b></p>
-            <p class="text-[10px]"><i >OR: </i><b>$7.99/BASIC CAP</b></p>
+            <h5 class="font-bold text-[11px]">BOWLING</h5>
+            <p class="text-[10px]"><i >AS LOW AS: </i><b>$19.99/POLO </b></p>
+            <p class="text-[10px]"><i >OR: </i><b>$14.99/Shirt</b></p>
           </div>
         </div>
+        </a>
       </div>
     
       
@@ -1469,5 +1326,18 @@
     integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
     crossorigin="anonymous"
   ></script>
+
+
+  <!-- JavaScript for dropdowns and arrow rotation -->
+<script>
+function toggleDropdown(id, btn) {
+  const menu = document.getElementById(id);
+  menu.classList.toggle('hidden');
+
+  // Rotate arrow
+  const arrow = btn.querySelector('i');
+  arrow.classList.toggle('rotate-180');
+}
+</script>
 </html>
  
